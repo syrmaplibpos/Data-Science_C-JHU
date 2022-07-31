@@ -17,7 +17,7 @@ Learning Objectives
 
 
 * Data science is using data to answer questions.
-** Data science can involve:
+Data science can involve:
 Statistics, computer science, mathematics
 Data cleaning and formatting
 Data visualization
