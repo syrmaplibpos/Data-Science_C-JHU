@@ -27,7 +27,7 @@ An Economist Special Report sums up this melange of skills well - they state tha
 * Two definitions of data, one that focuses on the actions surrounding data, and another on what comprises data.  
 Information, especially facts or numbers, collected to be examined and considered and used to help decision-making. --Cambridge English Dictionary  
 A set of values of qualitative or quantitative variables. --Wikipedia  
-set: In statistics, the population you are trying to discover something out.  
+Set: In statistics, the population you are trying to discover something out.  
 Variable: Measurements or characteristics of an item  
 Qualitative variables: Measurements or information about qualities, described by words, not numbers, and they are not necessarily ordered  
 Quantitative variables: Measurements or information about quantities or numerical items, described by numbers and are measured on a continuous, ordered scale
