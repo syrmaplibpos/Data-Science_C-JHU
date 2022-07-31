@@ -29,10 +29,8 @@ Information, especially facts or numbers, collected to be examined and considere
 A set of values of qualitative or quantitative variables. --Wikipedia  
 set: In statistics, the population you are trying to discover something out.  
 Variable: Measurements or characteristics of an item  
-Qualitative variables: Measurements or information about qualities  
-described by words, not numbers, and they are not necessarily ordered  
-Quantitative variables: Measurements or information about quantities or numerical items  
-described by numbers and are measured on a continuous, ordered scale
+Qualitative variables: Measurements or information about qualities, described by words, not numbers, and they are not necessarily ordered  
+Quantitative variables: Measurements or information about quantities or numerical items, described by numbers and are measured on a continuous, ordered scale
 
 * The relationship between data and your question and emphasize the importance of question-first strategies. You could have all the data you could ever hope for, but if you don’t have a question to start, the data is useless.
 
