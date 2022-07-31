@@ -16,14 +16,12 @@ Learning Objectives
 #### What is data science
 
 
-data science is using data to answer questions.
-Data science can involve:
+* Data science is using data to answer questions.
+** Data science can involve:
 Statistics, computer science, mathematics
 Data cleaning and formatting
 Data visualization
-
-Data scientist is someone who use data to answer questions.s
-
+* Data scientist is someone who use data to answer questions.
 An Economist Special Report sums up this melange of skills well - they state that a data scientist is broadly defined as someone:
 “who combines the skills of software programmer, statistician and storyteller slash artist to extract the nuggets of gold hidden under mountains of data”
 
