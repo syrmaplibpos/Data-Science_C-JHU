@@ -336,7 +336,7 @@ CRAN groups all of its packages by their functionality/topic into 35 “themes.
 
 [Task View](https://cran.r-project.org/web/views/): 
 
-How do you install packages?
+* How do you install packages?
 
 Installing from CRAN
 
@@ -365,3 +365,52 @@ check [this guide](http://kbroman.org/pkg_primer/pages/github.html)
 `library(devtools)`
 
 `install_github("author/package")`
+
+* Loading packages
+
+`library(ggplot2)`, OR Packages -> checkbox
+
+There is an order to loading packages - some packages require other packages to be loaded first (dependencies). That package’s manual/help pages will help you out in finding that order, if they are picky.
+
+* Checking what packages you have installed
+
+Simply `installed.packages()` or `library()` is a way to check, OR Packages tab
+
+* Updating packages (be careful )
+
+check what packages need an update `old.packages()`, update all packages, use `update.packages()` 
+
+only want to update a specific package, use `install.packages("packagename")`, OR Packages -> update
+
+* Unloading packages
+
+`detach("package:ggplot2", unload=TRUE)` OR uncheckbox in Packages
+
+* Uninstalling packages
+
+`remove.packages("ggplot2")`, OR clicking on the “X” in Packges
+
+* Sidenote
+
+`version` into the console to check the r version
+
+`sessionInfo()` - it will tell you what version of R you are running along with a listing of all of the packages you have loaded.
+
+Include this when post in forum
+
+* Using the commands in a function
+
+`help(package = "ggplot2")` and you will see all of the many functions that ggplot2 provides, OR access the help files through the Packages tab
+
+* extended help files
+
+Once you know what function within a package you want to use, you simply call it in the console like any other function we’ve been using throughout this lesson. 
+
+Once a package has been loaded, it is as if it were a part of the base R functionality.
+
+“vignettes” are extended help files, including an overview of the package and its functions, and detailed examples of how to use the functions 
+
+`browseVignettes("ggplot2")`
+
+You should see that there are two included vignettes: “Extending ggplot2” and “Aesthetic specifications.” Exploring the Aesthetic specifications vignette is a great example of how vignettes can be helpful, clear instructions on how to use the included functions.
+
