@@ -402,7 +402,7 @@ Include this when post in forum
 
 `help(package = "ggplot2")` and you will see all of the many functions that ggplot2 provides, OR access the help files through the Packages tab
 
-* extended help files
+* Extended help files
 
 Once you know what function within a package you want to use, you simply call it in the console like any other function we’ve been using throughout this lesson. 
 
