@@ -11,7 +11,7 @@ Learning Objectives
 
 
 #### What is data science
-
+volumn velocity variety
 
 * Data science is using data to answer questions.
 
@@ -287,3 +287,81 @@ Occupation
 
 Educational level
 
+
+
+
+### Week 2  R and R Studio
+
+#### Installing R
+
+R is both a programming language and an environment, focused mainly on statistical analysis and graphics.
+
+R is downloaded from the Comprehensive R Archive Network, or CRAN
+
+Why should you use R?
+
+1. Its popularity
+
+2. Its cost
+
+3. Its extensive functionality
+
+4. Its community
+
+#### Installing RStudio
+
+RStudio is a graphical user interface for R
+
+#### RStudio Tour
+
+[cheatsheet of the RStudio environment](https://iqss.github.io/dss-workshops/R/Rintro/base-r-cheat-sheet.pdf)
+
+#### R Packages
+
+To expand upon R’s basic functionality, people have developed packages. A package is a collection of functions, data, and code 
+
+A library is the place where the package is located on your computer. To think of an analogy, a library is, well, a library… and a package is a book within the library. The library is where the books/packages are located.
+
+* What are repositories?
+
+A repository is a central location where many developed packages are located and available for download.
+There are three big repositories:
+1. [CRAN (Comprehensive R Archive Network)](https://cran.r-project.org/web/packages/): R’s main repository (>12,100 packages available!)
+2. [BioConductor](https://bioconductor.org/packages/release/BiocViews.html#___Software): A repository mainly for bioinformatic-focused packages
+3. GitHub: A very popular, open source repository (not R specific!)
+
+* How do you know what package is right for you?
+
+CRAN groups all of its packages by their functionality/topic into 35 “themes.
+
+[Task View](https://cran.r-project.org/web/views/): 
+
+How do you install packages?
+
+Installing from CRAN
+
+'install.packages("ggplot2")'
+
+'install.packages(c("ggplot2", "devtools", "lme4"))'
+
+OR 
+
+Tools -> install packages
+
+Installing from Bioconductor
+
+source("https://bioconductor.org/biocLite.R")
+
+call the package you want to install
+
+'biocLite("GenomicFeatures")'
+
+Installing from GitHub
+
+check [this guide](http://kbroman.org/pkg_primer/pages/github.html)
+
+'install.packages("devtools")'
+
+'library(devtools)'
+
+'install_github("author/package")'
