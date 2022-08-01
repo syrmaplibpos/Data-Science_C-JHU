@@ -36,7 +36,36 @@ Quantitative variables: Measurements or information about quantities or numerica
 
 #### Getting help
 
+https://stackoverflow.com/  
+https://stats.stackexchange.com/  
+https://www.coursera.org/learn/data-scientists-tools/discussions
 
+tutorials, FAQs, or vignettes of whatever command or program is giving you trouble.
+
+Check for typos!  
+Read the error message and make sure you understand it  
+Google the error message, exactly
+
+The quickest way to figuring out what went wrong is looking at the output you did get, comparing it to what you wanted, and thinking about how the program may have produced that output instead of what you wanted.
+
+How to effectively ask questions on forums  
+Details to include:  
+The question you are trying to answer  
+How you approached the problem, what steps you have already taken to answer the question  
+What steps will reproduce the problem (including sample data for troubleshooters to work from!)  
+What was the expected output  
+What you saw instead (including any error messages you received!)  
+What troubleshooting steps you have already tried  
+Details about your set-up, eg: what operating system you are using, what version of the product you have installed (eg: R, Rpackages)  
+Be specific in the title of your questions!
+
+Better:  
+R 3.4.3 lm() function produces seg fault with large data frame (Windows 10)  
+Applied PCA to a matrix - what are U, D, and Vt?
+
+Even better:  
+R 3.4.3 lm() function on Windows 10 – seg fault on large dataframe  
+Using principle components to discover common variation in rows of a matrix, should I use, U, D or Vt?
 
 #### The data science process
 
