@@ -25,6 +25,37 @@ Data visualization
 An Economist Special Report sums up this melange of skills well - they state that a data scientist is broadly defined as someone:
 “who combines the skills of software programmer, statistician and storyteller slash artist to extract the nuggets of gold hidden under mountains of data”
 
+##### Practice Quiz
+1.Question 1
+
+Which of the following is an example of structured data?
+
+Lung x-ray images of smokers
+
+A database of individual's addresses, phone numbers, and post codes &check;
+
+A compilation of cat videos
+
+2.Question 2
+Which is NOT one of the three V's of Big Data?
+
+variety, vast, visible
+
+vexing, velocity, variety
+
+vibrant, vital, visible &check;
+
+3.Question 3
+
+Which of these is NOT one of the main skills embodied by data scientists?
+
+Machine learning &check;
+
+Hacking skills
+
+Math and stats
+
+
 #### What is data
 * Two definitions of data, one that focuses on the actions surrounding data, and another on what comprises data.
 
@@ -36,6 +67,35 @@ Qualitative variables: Measurements or information about qualities, described by
 Quantitative variables: Measurements or information about quantities or numerical items, described by numbers and are measured on a continuous, ordered scale
 
 * The relationship between data and your question and emphasize the importance of question-first strategies. You could have all the data you could ever hope for, but if you don’t have a question to start, the data is useless.
+
+##### Practice Quiz
+1.Question 1
+Which of these is an example of a quantitative variable?
+
+clothing brand, genre, birthplace
+
+occupation, height, gender
+
+age, weight, height &check;
+
+2.Question 2
+
+Quantitative variables are measured on ordered, continuous scales.
+
+True &check;
+
+False
+
+3.Question 3
+
+What is the most important thing in Data Science?
+
+Statistical inference
+
+Using the right software
+
+The question you are trying to answer &check;
+
 
 #### Getting help
 * forums
@@ -72,6 +132,39 @@ Even better:
 R 3.4.3 lm() function on Windows 10 – seg fault on large dataframe  
 Using principle components to discover common variation in rows of a matrix, should I use, U, D or Vt?
 
+##### Practice Quiz
+1.Question 1
+
+Which of these might be a good title for a forum post?
+
+How do I get rnorm() to work?
+
+STAT101 quiz
+
+Removing rows with NAs in data.frame using subset(), R 3.4.3 &check;
+
+2.Question 2
+
+Which is a characteristic of a good question when posting to message boards?
+
+Assumes that you've discovered a bug in R
+
+Includes follow-ups if you answer your own question &check;
+
+Asks for a code fix without explanation
+
+3.Question 3
+
+Which is NOT a good strategy for finding the answer to a problem in this course?
+
+Searching the course forum
+
+Emailing the professor &check;
+
+Explaining your problem to a friend/coworker
+
+
+
 #### The data science process
 
 * The Question
@@ -99,6 +192,47 @@ it was time to share it with the world. An important part of any data science pr
 writing a wonderful blog post that communicated the results of your analysis, answered the question you set out to answer, and did so in an entertaining way.
 
 You have to form your question, get data, explore and analyse your data, and communicate your results. 
+
+##### Practice Quiz
+1.Question 1
+
+Which of these is NOT an effective way to communicate the findings of your analysis?
+
+Save code locally on your computer &check;
+
+Presentation at a conference
+
+Write a scientific article
+
+2.Question 2
+
+What's the first step in the data science process?
+
+Modeling the data
+
+Getting the data
+
+Generating the question &check;
+
+3.Question 3
+
+Why should you include links or citations to others' work?
+
+It helps other quickly find information you've reference. &check;
+
+Others' work is more important than your.
+
+Citations prove how relevant your work is.
+
+4.Question 4
+
+What does Hilary Parker suggest led to the popularity of the name "Dewey" in the late 1800s? (You may have to reference Hilary's blog post  for this question.
+
+People named their daughters after Dewey, the famous opera singer.
+
+People named their daughters after Farrah Dewey, after Charlie's Angels.
+
+People named their daughters after George Dewey, after the Spanish-American War. &check;
 
 
 
