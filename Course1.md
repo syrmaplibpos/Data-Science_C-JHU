@@ -340,9 +340,9 @@ How do you install packages?
 
 Installing from CRAN
 
-'install.packages("ggplot2")'
+`install.packages("ggplot2")`
 
-'install.packages(c("ggplot2", "devtools", "lme4"))'
+`install.packages(c("ggplot2", "devtools", "lme4"))`
 
 OR 
 
@@ -354,14 +354,14 @@ source("https://bioconductor.org/biocLite.R")
 
 call the package you want to install
 
-'biocLite("GenomicFeatures")'
+`biocLite("GenomicFeatures")`
 
 Installing from GitHub
 
 check [this guide](http://kbroman.org/pkg_primer/pages/github.html)
 
-'install.packages("devtools")'
+`install.packages("devtools")`
 
-'library(devtools)'
+`library(devtools)`
 
-'install_github("author/package")'
+`install_github("author/package")`
