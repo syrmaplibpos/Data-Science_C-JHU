@@ -14,17 +14,20 @@ Learning Objectives
 
 
 * Data science is using data to answer questions.
+
 Data science can involve:
 Statistics, computer science, mathematics
 Data cleaning and formatting
 Data visualization
 
 * Data scientist is someone who use data to answer questions.
+
 An Economist Special Report sums up this melange of skills well - they state that a data scientist is broadly defined as someone:
 “who combines the skills of software programmer, statistician and storyteller slash artist to extract the nuggets of gold hidden under mountains of data”
 
 #### What is data
-* Two definitions of data, one that focuses on the actions surrounding data, and another on what comprises data.  
+* Two definitions of data, one that focuses on the actions surrounding data, and another on what comprises data.
+
 Information, especially facts or numbers, collected to be examined and considered and used to help decision-making. --Cambridge English Dictionary  
 A set of values of qualitative or quantitative variables. --Wikipedia  
 Set: In statistics, the population you are trying to discover something out.  
@@ -36,6 +39,7 @@ Quantitative variables: Measurements or information about quantities or numerica
 
 #### Getting help
 * forums
+
 https://stackoverflow.com/  
 https://stats.stackexchange.com/  
 https://www.coursera.org/learn/data-scientists-tools/discussions
@@ -48,7 +52,8 @@ Google the error message, exactly
 
 The quickest way to figuring out what went wrong is looking at the output you did get, comparing it to what you wanted, and thinking about how the program may have produced that output instead of what you wanted.
 
-* How to effectively ask questions on forums  
+* How to effectively ask questions on forums
+
 Details to include:  
 The question you are trying to answer  
 How you approached the problem, what steps you have already taken to answer the question  
@@ -70,21 +75,26 @@ Using principle components to discover common variation in rows of a matrix, sho
 #### The data science process
 
 * The Question
+
 have your question well-defined
 
 * The Data
 
 * Data Analysis
+
 it is important to know that after getting the data together, the next step is figuring out what you need to do with that data in order to answer your question.
 
 * Exploratory Data Analysis
+
 Figuring out how to do what you want to do to answer your question of interest is part of the process
 
 * Data Analysis Results
+
 It’s always good to consider whether or not the results were what you were expecting, from any analysis!
 figure out what was specifically going on
 
 * Communication
+
 it was time to share it with the world. An important part of any data science project is effectively communicating the results of the project.
 writing a wonderful blog post that communicated the results of your analysis, answered the question you set out to answer, and did so in an entertaining way.
 
