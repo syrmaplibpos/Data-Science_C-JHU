@@ -1,7 +1,6 @@
 ## [Coursera 1: The Data Scientist’s Toolbox](https://www.coursera.org/learn/data-scientists-tools/home/welcome)
 
-[Week 1  Data Science Fundamentals](#week-1--data-science-fundamentals)
-
+[toc]
 
 
 ### Week 1  Data Science Fundamentals
