@@ -1,7 +1,33 @@
 ## [Coursera 1: The Data Scientist’s Toolbox](https://www.coursera.org/learn/data-scientists-tools/home/welcome)
 
-[toc]
+- [Coursera 1: The Data Scientist’s Toolbox](#coursera-1-the-data-scientists-toolbox)
+  - [Week 1  Data Science Fundamentals](#week-1--data-science-fundamentals)
+    - [Welcome to the Data Scientist's Toolbox](#welcome-to-the-data-scientists-toolbox)
+    - [What is data science](#what-is-data-science)
+      - [Practice Quiz](#practice-quiz)
+    - [What is data](#what-is-data)
+      - [Practice Quiz](#practice-quiz-1)
+    - [Getting help](#getting-help)
+      - [Practice Quiz](#practice-quiz-2)
+    - [The data science process](#the-data-science-process)
+      - [Practice Quiz](#practice-quiz-3)
+    - [Module 1 Quiz](#module-1-quiz)
+  - [Week 2  R and RStudio](#week-2--r-and-rstudio)
+    - [Installing R](#installing-r)
+    - [Installing RStudio](#installing-rstudio)
+      - [Practice Quiz](#practice-quiz-4)
+      - [Practice Quiz](#practice-quiz-5)
+    - [RStudio Tour](#rstudio-tour)
+      - [Practice Quiz](#practice-quiz-6)
+    - [R Packages](#r-packages)
+      - [Practice Quiz](#practice-quiz-7)
+    - [Projects in R](#projects-in-r)
+      - [Practice Quiz](#practice-quiz-8)
+    - [Module 2 Quiz](#module-2-quiz)
 
+
+<!-- search for installed extension functions: cmd+shift+p -->
+<!-- Markdown All in One: Create Table of Contents -->
 
 ### Week 1  Data Science Fundamentals
 Learning Objectives
@@ -293,7 +319,7 @@ Educational level
 
 
 
-### Week 2  R and R Studio
+### Week 2  R and RStudio
 
 #### Installing R
 
