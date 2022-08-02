@@ -312,9 +312,114 @@ Why should you use R?
 
 RStudio is a graphical user interface for R
 
+##### Practice Quiz
+1.Question 1
+
+What does CRAN stand for?
+
+Calculated R Activity Name
+
+Citizens' R Application Network
+
+Comprehensive R Archive Network &check;
+
+2.Question 2
+
+What does base R focus on?
+
+Graphics &check;
+
+Mapping
+
+Analyzing text
+
+3.Question 3
+
+What is the output when you type into R: mean(mtcars$mpg) ?
+
+20.09062 &check;
+
+5.432
+
+mean()
+
+4.Question 4
+
+Why are we using R for the course track?
+
+R is a general purpose programming language.
+
+R is one of the most widely used programming languages for Data Science. &check;
+
+R is the best cloud computing language.
+
+
+##### Practice Quiz
+1.Question 1
+What is RStudio?
+
+A graphical user interface for R &check;
+
+A programming language
+
+An R package for machine learning
+
+2.Question 2
+Which is NOT an option for a file type when you go to File > New File in RStudio?
+
+R Beamer Presentation &check;
+
+R Markdown
+
+Shiny Web App
+
+
+
 #### RStudio Tour
 
 [cheatsheet of the RStudio environment](https://iqss.github.io/dss-workshops/R/Rintro/base-r-cheat-sheet.pdf)
+
+##### Practice Quiz
+1.Question 1
+
+How do you see a command you have previously run and save it to source?
+
+History tab > Highlight command > To Source &check;
+
+Environment tab > Open folder > Save
+
+File > History > Save
+
+2.Question 2
+
+What is the name of the quadrant in the bottom left corner of RStudio, in the default layout?
+
+History
+
+Plots
+
+Console &check;
+
+3.Question 3
+
+Which of the following is NOT one of the options available under the Global Options menu in Tools?
+
+Versions &check;
+
+General
+
+Sweave
+
+4.Question 4
+
+Using the Help menu, find out which of the following is one of the three species of Iris present in the base R dataset: iris.
+
+Virginica &check;
+
+Belladonna
+
+Aurea
+
 
 #### R Packages
 
@@ -414,3 +519,150 @@ Once a package has been loaded, it is as if it were a part of the base R functio
 
 You should see that there are two included vignettes: “Extending ggplot2” and “Aesthetic specifications.” Exploring the Aesthetic specifications vignette is a great example of how vignettes can be helpful, clear instructions on how to use the included functions.
 
+##### Practice Quiz
+1.Question 1
+
+How would you install the package ggplot2?
+
+install.packages("ggplot2") &check;
+
+library("ggplot2")
+
+install.package("ggplot2")
+
+2.Question 2
+
+Using the help files, what is NOT a function included in the devtools package?
+
+aes() &check;
+
+check()
+
+install_github()
+
+3.Question 3
+
+Which is NOT one of the main repositories?
+
+RDocumentation &check;
+
+GitHub
+
+CRAN
+
+4.Question 4
+
+What command lists your R version, operating system, and loaded packages?
+
+SESSIONINFO()
+
+sessionInfo() &check;
+
+session.Info()
+
+5.Question 5
+
+Install and load the KernSmooth R package. What does the copyright message say?
+
+Copyright M. P. Wand 1997-2009 &check;
+
+Copyright M. P. Wand 1990-2009
+
+Copyright Matthew Wand 1997-2009
+
+
+
+
+#### Projects in R
+
+File OR right top Project toolbar drop down
+
+Open Project OR Open Projects in New Session
+
+Close Project
+
+
+##### Practice Quiz
+1.Question 1
+Which is NOT a way to create a new Project?
+
+Session > New Project &check;
+
+File > New Project
+
+Project toolbar > New Project
+
+2.Question 2
+
+What file extension do Projects in R use?
+
+.Rproj &check;
+
+.pRoject
+
+.R
+
+3.Question 3
+
+Creating a new project from scratch will NOT do which of the following?
+
+Initiate version control &check;
+
+Create a new folder
+
+Open a blank RStudio window
+
+
+
+#### Module 2 Quiz
+1.Question 1
+
+What does base R focus on?
+
+Mapping
+
+Statistical analysis &check;
+
+Artificial intelligence
+
+2.Question 2
+
+What is RStudio?
+
+A graphical user interface for R &check;
+
+Version control software
+
+A programming language
+
+3.Question 3
+
+What is the name of the quadrant in the bottom left corner of RStudio, in the default layout?
+
+History
+
+Plots
+
+Console &check;
+
+4.Question 4
+
+What command lists your R version, operating system, and loaded packages?
+
+versions()
+
+Sessioninfo()
+
+sessionInfo() &check;
+
+5.Question 5
+
+What file extension do Projects in R use?
+
+1 point
+
+.Rproj &check;
+
+.R
+
+.RPROJECT
