@@ -320,6 +320,11 @@ Educational level
 
 
 ## Week 2  R and RStudio
+Learning Objectives
+* Complete the R installation process
+* Complete the RStudio installation process
+* Practice navigating in RStudio
+* Give examples of R Packages
 
 ### Installing R
 
