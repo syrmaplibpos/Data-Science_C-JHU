@@ -1,4 +1,4 @@
-## [Coursera 1: The Data Scientist’s Toolbox](https://www.coursera.org/learn/data-scientists-tools/home/welcome)
+# [Coursera 1: The Data Scientist’s Toolbox](https://www.coursera.org/learn/data-scientists-tools/home/welcome)
 
 - [Coursera 1: The Data Scientist’s Toolbox](#coursera-1-the-data-scientists-toolbox)
   - [Week 1  Data Science Fundamentals](#week-1--data-science-fundamentals)
@@ -29,17 +29,17 @@
 <!-- search for installed extension functions: cmd+shift+p -->
 <!-- Markdown All in One: Create Table of Contents -->
 
-### Week 1  Data Science Fundamentals
+## Week 1  Data Science Fundamentals
 Learning Objectives
 * Define data science
 * Define data
 * Use resources to get help with problems
 
-#### Welcome to the Data Scientist's Toolbox
+### Welcome to the Data Scientist's Toolbox
 
 
 
-#### What is data science
+### What is data science
 volumn velocity variety
 
 * Data science is using data to answer questions.
@@ -54,7 +54,7 @@ Data visualization
 An Economist Special Report sums up this melange of skills well - they state that a data scientist is broadly defined as someone:
 “who combines the skills of software programmer, statistician and storyteller slash artist to extract the nuggets of gold hidden under mountains of data”
 
-##### Practice Quiz
+#### Practice Quiz
 1.Question 1
 
 Which of the following is an example of structured data?
@@ -85,7 +85,7 @@ Hacking skills
 Math and stats
 
 
-#### What is data
+### What is data
 * Two definitions of data, one that focuses on the actions surrounding data, and another on what comprises data.
 
 Information, especially facts or numbers, collected to be examined and considered and used to help decision-making. --Cambridge English Dictionary  
@@ -97,7 +97,7 @@ Quantitative variables: Measurements or information about quantities or numerica
 
 * The relationship between data and your question and emphasize the importance of question-first strategies. You could have all the data you could ever hope for, but if you don’t have a question to start, the data is useless.
 
-##### Practice Quiz
+#### Practice Quiz
 1.Question 1
 Which of these is an example of a quantitative variable?
 
@@ -126,7 +126,7 @@ Using the right software
 The question you are trying to answer &check;
 
 
-#### Getting help
+### Getting help
 * forums
 
 https://stackoverflow.com/  
@@ -161,7 +161,7 @@ Even better:
 R 3.4.3 lm() function on Windows 10 – seg fault on large dataframe  
 Using principle components to discover common variation in rows of a matrix, should I use, U, D or Vt?
 
-##### Practice Quiz
+#### Practice Quiz
 1.Question 1
 
 Which of these might be a good title for a forum post?
@@ -194,7 +194,7 @@ Explaining your problem to a friend/coworker
 
 
 
-#### The data science process
+### The data science process
 
 * The Question
 
@@ -222,7 +222,7 @@ writing a wonderful blog post that communicated the results of your analysis, an
 
 You have to form your question, get data, explore and analyse your data, and communicate your results. 
 
-##### Practice Quiz
+#### Practice Quiz
 1.Question 1
 
 Which of these is NOT an effective way to communicate the findings of your analysis?
@@ -265,7 +265,7 @@ People named their daughters after George Dewey, after the Spanish-American War.
 
 
 
-#### Module 1 Quiz
+### Module 1 Quiz
 
 1.Question 1
 Which of these is NOT one of the main skills embodied by data scientists?
@@ -319,9 +319,9 @@ Educational level
 
 
 
-### Week 2  R and RStudio
+## Week 2  R and RStudio
 
-#### Installing R
+### Installing R
 
 R is both a programming language and an environment, focused mainly on statistical analysis and graphics.
 
@@ -338,7 +338,7 @@ Why should you use R?
 4. Its community
 
 
-##### Practice Quiz
+#### Practice Quiz
 1.Question 1
 
 What does CRAN stand for?
@@ -380,13 +380,13 @@ R is one of the most widely used programming languages for Data Science. &check;
 R is the best cloud computing language.
 
 
-#### Installing RStudio
+### Installing RStudio
 
 RStudio is a graphical user interface for R
 
 
 
-##### Practice Quiz
+#### Practice Quiz
 1.Question 1
 
 What is RStudio?
@@ -408,11 +408,11 @@ Shiny Web App
 
 
 
-#### RStudio Tour
+### RStudio Tour
 
 [cheatsheet of the RStudio environment](https://iqss.github.io/dss-workshops/R/Rintro/base-r-cheat-sheet.pdf)
 
-##### Practice Quiz
+#### Practice Quiz
 1.Question 1
 
 How do you see a command you have previously run and save it to source?
@@ -454,7 +454,7 @@ Belladonna
 Aurea
 
 
-#### R Packages
+### R Packages
 
 To expand upon R’s basic functionality, people have developed packages. A package is a collection of functions, data, and code 
 
@@ -552,7 +552,7 @@ Once a package has been loaded, it is as if it were a part of the base R functio
 
 You should see that there are two included vignettes: “Extending ggplot2” and “Aesthetic specifications.” Exploring the Aesthetic specifications vignette is a great example of how vignettes can be helpful, clear instructions on how to use the included functions.
 
-##### Practice Quiz
+#### Practice Quiz
 1.Question 1
 
 How would you install the package ggplot2?
@@ -606,7 +606,7 @@ Copyright Matthew Wand 1997-2009
 
 
 
-#### Projects in R
+### Projects in R
 
 File OR right top Project toolbar drop down
 
@@ -615,7 +615,7 @@ Open Project OR Open Projects in New Session
 Close Project
 
 
-##### Practice Quiz
+#### Practice Quiz
 1.Question 1
 Which is NOT a way to create a new Project?
 
@@ -647,7 +647,7 @@ Open a blank RStudio window
 
 
 
-#### Module 2 Quiz
+### Module 2 Quiz
 1.Question 1
 
 What does base R focus on?
@@ -699,3 +699,6 @@ What file extension do Projects in R use?
 .R
 
 .RPROJECT
+
+
+##
