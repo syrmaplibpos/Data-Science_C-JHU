@@ -14,8 +14,8 @@
     - [Module 1 Quiz](#module-1-quiz)
   - [Week 2  R and RStudio](#week-2--r-and-rstudio)
     - [Installing R](#installing-r)
-    - [Installing RStudio](#installing-rstudio)
       - [Practice Quiz](#practice-quiz-4)
+    - [Installing RStudio](#installing-rstudio)
       - [Practice Quiz](#practice-quiz-5)
     - [RStudio Tour](#rstudio-tour)
       - [Practice Quiz](#practice-quiz-6)
@@ -337,9 +337,6 @@ Why should you use R?
 
 4. Its community
 
-#### Installing RStudio
-
-RStudio is a graphical user interface for R
 
 ##### Practice Quiz
 1.Question 1
@@ -383,8 +380,15 @@ R is one of the most widely used programming languages for Data Science. &check;
 R is the best cloud computing language.
 
 
+#### Installing RStudio
+
+RStudio is a graphical user interface for R
+
+
+
 ##### Practice Quiz
 1.Question 1
+
 What is RStudio?
 
 A graphical user interface for R &check;
