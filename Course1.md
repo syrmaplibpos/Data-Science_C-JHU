@@ -30,6 +30,7 @@
     - [Github and Git](#github-and-git)
       - [Practice Quiz](#practice-quiz-10)
     - [Linking Github and RStudio](#linking-github-and-rstudio)
+      - [Pratice Quiz](#pratice-quiz)
     - [Projects Under Version Control](#projects-under-version-control)
     - [Module 3 Quiz](#module-3-quiz)
 
@@ -902,8 +903,117 @@ git boom
 
 ### Linking Github and RStudio
 
+* Linking RStudio and Git
+
+In RStudio, go to Tools > Global Options > Git/SVN, Confirm that git.exe resides in the directory, OK or Apply
+
+* Linking RStudio and GitHub
+
+In that same window, Create RSA Key -> Close
+
+View public key, copy the string of numbers and letters, Close
+
+You have now created a key that is specific to you which we will provide to GitHub, so that it knows who you are when you commit a change from within RStudio.
+
+In github account settings, SSH and GPG keys -> New SSH key -> Paste in the public key -> give it a Title related to RStudio -> Confirm add.
+
+* Create a new repository and edit it in RStudio
+
+Github Profile -> Repositories -> New -> Name and give a short description -> Create repository -> Copy URL
+
+In RStudio, File -> New Project -> Version Control -> Git -> Paste in the repository URL -> select the location -> Create Project 
+
+Doing so will initialize a new project, linked to the GitHub repository, and open a new session of RStudio.
+
+File > New File > R Script
+
+write some code and save, note default location is within the new Project directory
+
+environment -> git -> staged checbox -> commit
+
+new window open and details, write Commit message -> commit -> push
+
+
+#### Pratice Quiz
+
+1.Question 1
+
+In what quadrant of RStudio will you find the Git tab ?
+
+Environment &check;
+
+Files
+
+Viewer
+
+2.Question 2
+What is the order of commands to send a file to GitHub from within RStudio?
+
+Commit > Stage > Push
+
+Commit > Push
+
+Stage > Commit message > Commit > Push &check;
+
+3.Question 3
+
+Which can you NOT do from within the Commit window of RStudio?
+
+See the differences between your original file and your updated file
+
+Stage files
+
+Pull and push content from the repository
+
+Write a commit message
+
+None of the above &check;
+
+
 
 ### Projects Under Version Control
+
+* Linking an existing Project with Git
+
+In RStudio, File -> New Project -> New Directory -> New Project and name it.
+
+Create Project (NOT Create a git repository, already existed and not under version control)
+
+`cd ~/dir/name/of/path/to/file`
+
+`git init`
+
+`git add .`
+
+initializes (init) this directory as a git repository and adds all of the files in the directory
+
+`git commit -m "Initial commit`
+
+Linking this project with GitHub
+
+GitHub.com -> create a new repository
+
+exact same name (Do NOT initialize a README file, .gitignore, or license.)
+
+copy command below "Push an existing repository from the command line" and paste in terminal
+
+* Working on an existing GitHub repository
+
+in RStudio, File -> New Project -> Version Control -> Git -> provide the URL -> select location -> Create the project
+
+* create repo locally and sync init github
+
+In RStudio, File -> New Project -> New Directory -> New Project and name it -> check Create a git repository
+
+the following will be the same as doing cloning github repo
+
+
+
+
+
+
+
+
 
 
 ### Module 3 Quiz
