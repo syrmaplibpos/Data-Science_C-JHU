@@ -34,7 +34,7 @@
     - [Projects Under Version Control](#projects-under-version-control)
       - [Practice Quiz](#practice-quiz-11)
     - [Module 3 Quiz](#module-3-quiz)
-  - [R Markdown, Scientific Thinking, and Big Data](#r-markdown-scientific-thinking-and-big-data)
+  - [Week 4 R Markdown, Scientific Thinking, and Big Data](#week-4-r-markdown-scientific-thinking-and-big-data)
     - [R Markdown](#r-markdown)
       - [Practice Quiz](#practice-quiz-12)
     - [Types of Data Science Questions](#types-of-data-science-questions)
@@ -1114,7 +1114,7 @@ git commit -m "Message"
 
 
 
-## R Markdown, Scientific Thinking, and Big Data
+## Week 4 R Markdown, Scientific Thinking, and Big Data
 
 Learning Objectives
 * Use R Markdown
