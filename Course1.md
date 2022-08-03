@@ -745,25 +745,48 @@ GitHub is an online interface for Git. Git is software used locally on your comp
 
 * * Repository
 
+Equivalent to the project’s folder/directory - all of your version controlled files (and the recorded changes) are located in a repository. Repositories are hosted on GitHub.
+
 * * Commit
+
+To commit is to save your edits and the changes made. A commit is like a snapshot of your files: Git compares the previous version of all of your files in the repo to the current version and identifies those that have changed since then. 
+
+If you find a mistake, you revert your files to a previous commit. If you want to see what has changed in a file over time, you compare the commits and look at the messages to see why and who.
 
 * * Push
 
+Updating the repository with your edits. Pushing is sending those committed changes to that repository.
+
 * * Pull
+
+Updating your local version of the repository to the current version, pull to check if you are up to date with the main repository.
 
 * * Staging
 
+The act of preparing a file for a commit. Staging allows you to separate out file changes into separate commits.
+
 * * Branch
+
+you have created a branch where your edits are not shared with the main repository (yet) .
+Following a branch point, the version history splits into two and tracks the independent changes made to both the original file in the repository that others may be editing, and tracking your changes on your branch, and then merges the files together.
 
 * * Merge
 
+Independent edits of the same file are incorporated into a single, unified file. Independent edits are identified by Git and are brought together into a single file, with both sets of edits incorporated. Git recognizes the disparity (conflict) and asks for user assistance in picking which edit to keep.
+
 * * Conflict
+
+When multiple people make changes to the same file and Git is unable to merge the edits. You are presented with the option to manually try and merge the edits or to keep one edit over the other.
+
 
 * * Clone
 
+Making a copy of an existing Git repository to get access to, and create a local version of all of the repository’s files and all of the tracked changes.
+
+
 * * Fork
 
-
+A personal copy of a repository that you have taken from another person. You can fork somebody's repository and then when you make changes, the edits are logged on your repository, not theirs.
 
 
 #### Practice Quiz
