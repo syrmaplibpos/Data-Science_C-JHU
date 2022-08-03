@@ -24,7 +24,7 @@
     - [Projects in R](#projects-in-r)
       - [Practice Quiz](#practice-quiz-8)
     - [Module 2 Quiz](#module-2-quiz)
-  - [Week 2 Version Control and Github](#week-2-version-control-and-github)
+  - [Week 3 Version Control and Github](#week-3-version-control-and-github)
     - [Version Control](#version-control)
       - [Practice Quiz](#practice-quiz-9)
     - [Github and Git](#github-and-git)
@@ -716,7 +716,7 @@ What file extension do Projects in R use?
 
 
 
-## Week 2 Version Control and Github
+## Week 3 Version Control and Github
 Learning Objectives
 * Describe version control and its benefits
 * Use Git and GitHub
