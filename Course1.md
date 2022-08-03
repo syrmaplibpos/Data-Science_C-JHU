@@ -34,6 +34,17 @@
     - [Projects Under Version Control](#projects-under-version-control)
       - [Practice Quiz](#practice-quiz-11)
     - [Module 3 Quiz](#module-3-quiz)
+  - [R Markdown, Scientific Thinking, and Big Data](#r-markdown-scientific-thinking-and-big-data)
+    - [R Markdown](#r-markdown)
+      - [Practice Quiz](#practice-quiz-12)
+    - [Types of Data Science Questions](#types-of-data-science-questions)
+      - [Practice Quiz](#practice-quiz-13)
+    - [Experimental Design](#experimental-design)
+      - [Practice Quiz](#practice-quiz-14)
+    - [Big Data](#big-data)
+      - [Practice Quiz](#practice-quiz-15)
+    - [Module 4 Quiz](#module-4-quiz)
+    - [Course Project](#course-project)
 
 
 <!-- search for installed extension functions: cmd+shift+p -->
@@ -1099,3 +1110,52 @@ git add . &check;
 cd ~/dir/name/of/path/to/file
 
 git commit -m "Message"
+
+
+
+
+## R Markdown, Scientific Thinking, and Big Data
+
+Learning Objectives
+* Use R Markdown
+* Propose data science questions
+* Discuss experimental design and its importance for data science
+* Summarize the qualities of big data
+
+
+### R Markdown
+
+
+
+
+#### Practice Quiz
+
+### Types of Data Science Questions
+
+
+
+
+#### Practice Quiz
+
+### Experimental Design
+
+
+
+
+#### Practice Quiz
+
+### Big Data
+
+
+
+#### Practice Quiz
+
+### Module 4 Quiz
+
+
+
+
+### Course Project
+
+
+
