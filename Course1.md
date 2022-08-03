@@ -32,6 +32,7 @@
     - [Linking Github and RStudio](#linking-github-and-rstudio)
       - [Pratice Quiz](#pratice-quiz)
     - [Projects Under Version Control](#projects-under-version-control)
+      - [Practice Quiz](#practice-quiz-11)
     - [Module 3 Quiz](#module-3-quiz)
 
 
@@ -1000,6 +1001,50 @@ copy command below "Push an existing repository from the command line" and paste
 * Working on an existing GitHub repository
 
 in RStudio, File -> New Project -> Version Control -> Git -> provide the URL -> select location -> Create the project
+
+
+#### Practice Quiz
+1.Question 1
+
+What do you call it when you create a local copy of a repository that 
+you will work on collaboratively with the original repository owner?
+
+Clone &check;
+
+Branch
+
+Merge
+
+2.Question 2
+
+What is the command to initialize git in a directory?
+
+git init &check;
+
+cd ~/dir/name/of/path/to/file
+
+git add .
+
+3.Question 3
+
+How do you add all of the contents of a directory to version control?
+
+git commit -m "Message"
+
+cd ~/dir/name/of/path/to/file
+
+git add . &check;
+
+4.Question 4
+
+How do you make a commit from within the command line?
+
+cd ~/dir/name/of/path/to/file
+
+git commit -m "Message"  &check;
+
+git init
+
 
 
 
