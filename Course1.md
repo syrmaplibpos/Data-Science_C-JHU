@@ -28,6 +28,7 @@
     - [Version Control](#version-control)
       - [Practice Quiz](#practice-quiz-9)
     - [Github and Git](#github-and-git)
+      - [Practice Quiz](#practice-quiz-10)
     - [Linking Github and RStudio](#linking-github-and-rstudio)
     - [Projects Under Version Control](#projects-under-version-control)
     - [Module 3 Quiz](#module-3-quiz)
@@ -832,6 +833,71 @@ Version control minimizes the need to save different versions of the same file o
 
 
 ### Github and Git
+
+[help files](https://help.github.com/)
+
+Configuring Git
+
+`git config --global user.name "username"`
+
+`git config --global user.email "useremail signedup"`
+
+Confirm
+
+`git config --list`
+
+#### Practice Quiz
+
+1.Question 1
+
+On each repository page in GitHub, in the top right hand corner there are three options. They are:
+
+Commit, contributors, issues
+
+Watch, star, fork &check;
+
+Pull, clone, fork
+
+2.Question 2
+
+To make a new repository on GitHub, which can you NOT do?
+
+Profile > New repository &check;
+
+Plus sign > New repository
+
+Profile > Repositories > New
+
+3.Question 3
+
+What command can you use to change the name associated with each of your commits?
+
+git.config --global username "Jane Doe"
+
+git config --local username "Jane Doe"
+
+git config --global user.name "Jane Doe" &check;
+
+4.Question 4
+
+What command can you use to see your Git configuration?
+
+git load --list
+
+git config -settings
+
+git config --list &check;
+
+5.Question 5
+
+Which of the following will initiate a git repository locally?
+
+git init &check;
+
+git remote add
+
+git boom
+
 
 
 ### Linking Github and RStudio
