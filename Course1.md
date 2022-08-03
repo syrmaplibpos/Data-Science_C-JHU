@@ -1001,20 +1001,56 @@ copy command below "Push an existing repository from the command line" and paste
 
 in RStudio, File -> New Project -> Version Control -> Git -> provide the URL -> select location -> Create the project
 
-* create repo locally and sync init github
-
-In RStudio, File -> New Project -> New Directory -> New Project and name it -> check Create a git repository
-
-the following will be the same as doing cloning github repo
-
-
-
-
-
-
-
-
 
 
 ### Module 3 Quiz
 
+1.Question 1
+
+What is a good example of a message to accompany a commit?
+
+Modified linear model of height to include new covariate, genotype &check;
+
+Fixed problem with linear model
+
+Updated thing
+
+2.Question 2
+
+On each repository page in GitHub, in the top right hand corner there are three options. They are:
+
+Watch, star, fork &check;
+
+Pull, clone, fork
+
+Commit, contributors, issues
+
+3.Question 3
+
+Which of the following will initiate a git repository locally?
+
+git init &check;
+
+git remote add
+
+git boom
+
+4.Question 4
+
+What is the order of commands to send a file to GitHub from within RStudio?
+
+Commit > Push
+
+Stage > Commit message > Commit > Push &check;
+
+Pull > Push > Commit
+
+5.Question 5
+
+How do you add all of the contents of a directory to version control?
+
+git add . &check;
+
+cd ~/dir/name/of/path/to/file
+
+git commit -m "Message"
