@@ -789,10 +789,45 @@ Making a copy of an existing Git repository to get access to, and create a local
 A personal copy of a repository that you have taken from another person. You can fork somebody's repository and then when you make changes, the edits are logged on your repository, not theirs.
 
 
+* Best pratice
+
+Purposeful, single issue commmits
+
+informative commit messages
+
+pull and push often
+
 #### Practice Quiz
 
+1.Question 1
 
+I'm done editing a file, I need to ______ those changes then _______ them, and ______ it to the ________.
 
+Commit, merge, push, repository
+
+Pull, push, commit, branch
+
+Stage, commit, push, repository &check;
+
+2.Question 2
+
+What is a good example of a message to accompany a commit?
+
+Modified linear model of height to include new covariate, genotype &check;
+
+Added genotype
+
+Updated thing
+
+3.Question 3
+
+Which of these is NOT true about using a version control system?
+
+Version control should only be used by experts &check;
+
+Version control helps make sure that you do not lose work that you have done
+
+Version control minimizes the need to save different versions of the same file on your computer
 
 
 
