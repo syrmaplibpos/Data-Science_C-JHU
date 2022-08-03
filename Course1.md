@@ -24,6 +24,13 @@
     - [Projects in R](#projects-in-r)
       - [Practice Quiz](#practice-quiz-8)
     - [Module 2 Quiz](#module-2-quiz)
+  - [Week 2 Version Control and Github](#week-2-version-control-and-github)
+    - [Version Control](#version-control)
+      - [Practice Quiz](#practice-quiz-9)
+    - [Github and Git](#github-and-git)
+    - [Linking Github and RStudio](#linking-github-and-rstudio)
+    - [Projects Under Version Control](#projects-under-version-control)
+    - [Module 3 Quiz](#module-3-quiz)
 
 
 <!-- search for installed extension functions: cmd+shift+p -->
@@ -706,4 +713,74 @@ What file extension do Projects in R use?
 .RPROJECT
 
 
-##
+
+## Week 2 Version Control and Github
+Learning Objectives
+* Describe version control and its benefits
+* Use Git and GitHub
+* Complete the process of linking GitHub and RStudio
+* Apply version control to projects
+
+### Version Control
+
+* What is version control?
+
+Version control is a system that records changes that are made to a file or a set of files over time. As you make edits, the version control system takes snapshots of your files and the changes, and then saves those snapshots so you can refer or revert back to previous versions later if need be!
+
+* What are the benefits of using version control?
+
+It keeps a record of all changes made to the files. This can be of great help when you are collaborating with many people on the same files - the version control software keeps track of who, when, and why those specific changes were made. 
+
+* What is Git? Why should you use it?
+
+Git is a free and open source version control system. 
+
+the ease with which RStudio and Git interface with each other
+
+* *What is GitHub?
+
+GitHub is an online interface for Git. Git is software used locally on your computer to record changes. GitHub is a host for your files and the records of the changes made.
+
+* Version control vocabulary
+
+* * Repository
+
+* * Commit
+
+* * Push
+
+* * Pull
+
+* * Staging
+
+* * Branch
+
+* * Merge
+
+* * Conflict
+
+* * Clone
+
+* * Fork
+
+
+
+
+#### Practice Quiz
+
+
+
+
+
+
+### Github and Git
+
+
+### Linking Github and RStudio
+
+
+### Projects Under Version Control
+
+
+### Module 3 Quiz
+
