@@ -1337,27 +1337,27 @@ This process involves clearly formulating your question in advance of any data c
 
 * Principles of experimental design
 
-**Independent variable (AKA factor)**: The variable that the experimenter manipulates; it does not depend on other variables being measured. Often displayed on the x-axis.
++ **Independent variable (AKA factor)**: The variable that the experimenter manipulates; it does not depend on other variables being measured. Often displayed on the x-axis.
 
-**Dependent variable**: The variable that is expected to change as a result of changes in the independent variable. Often displayed on the y-axis, so that changes in X, the independent variable, effect changes in Y.
++ **Dependent variable**: The variable that is expected to change as a result of changes in the independent variable. Often displayed on the y-axis, so that changes in X, the independent variable, effect changes in Y.
 
-**hypothesis**: essentially an educated guess as to the relationship between your variables and the outcome of your experiment.
++ **hypothesis**: essentially an educated guess as to the relationship between your variables and the outcome of your experiment.
 
-**Sample size**: the number of experimental subjects you will include in your experiment.
++ **Sample size**: the number of experimental subjects you will include in your experiment.
 
-**Confounder**: An extraneous variable that may affect the relationship between the dependent and independent variables.
++ **Confounder**: An extraneous variable that may affect the relationship between the dependent and independent variables.
 
-**control group**: manipulated and not manipulated
++ **control group**: manipulated and not manipulated
 
-**placebo effect**: subject knows that they are in the treatment group, and they feel better
++ **placebo effect**: subject knows that they are in the treatment group, and they feel better
 
-**blinded**: subjects don't know what group they are in
++ **blinded**: subjects don't know what group they are in
 
-**randomization**: to balance confounders, randomly assign individuals, potential confounders distributed roughly equally
++ **randomization**: to balance confounders, randomly assign individuals, potential confounders distributed roughly equally
 
  we don’t know what will be a confounder beforehand; to help lessen the risk of accidentally biasing one group to be enriched for a confounder, you can randomly assign individuals to each of your groups. This means that any potential confounding variables should be distributed between each group roughly equally, to help eliminate/reduce systematic errors.
 
-**replication**: repeating an experiment with different experimental subjects.
++ **replication**: repeating an experiment with different experimental subjects.
 
 singel experiment results occured by chance; confounder unevenly distributed across your groups, there was a systematic error in the data collection, or outlier(abnormal distance)
 
@@ -1464,11 +1464,6 @@ Use your sample data distribution to make predictions for the future
 Draw conclusions from your sample data distribution and infer for the larger population
 
 Generate a table summarizing the number of observations in your dataset as well as the central tendencies and variances of each variable &check;
-
-
-
-
-
 
 
 
