@@ -1469,11 +1469,143 @@ Generate a table summarizing the number of observations in your dataset as well 
 
 ### Big Data
 
+Volume, Velocity, Variety
+
+* What is structured data? What is unstructured data?
+
+Structured data
+
+traditionally think of data; long tables, spreadsheets, or databases with columns and rows of information that you can sum or average or analyse however you like within those confines. 
+
+unstructured data
+
+the format that as long as a computer could record, store, search, and analyse
+
+being collected from all of our digital interactions
+
+
+
+* Challenges of working with big data
+
+It is big: a lot of raw data need to be able to store and analyse
+
+It is constantly changing and updating
+
+The variety can be overwhelming: so many sources of information, difficult to determine the best suited
+
+It is messy: don’t have neat data tables to quickly analyse - need to turn unstructured data into a format that you can analyse
+
+
+
+* Benefits to working with big data
+
+many questions benefit from having lots and lots of data, closer to the truth even with these messier datasets.
+
+constantly updating, accurate to the current state and make on the spot, rapid, informed predictions and decisions.
+
+questions previously unable to be answered due to lack of information, inaccessible, unconventional data sources, new connections and discoveries are made, answer formerly unfeasible questions.
+
+identify hidden correlations, look for qualities not obviously related to outcome variable
+
+Big data helps answer what, not why, and often that’s good enough.
+
+
+
+Will big data solve all our problems?
+
+Regardless of the size of the data, you need the right data to answer a question.
+
 
 
 #### Practice Quiz
 
+
+1.Question 1
+
+Which is NOT one of the three V's of Big Data?
+
+Vexing &check;
+
+Velocity
+
+Variety
+
+2.Question 2
+
+Which one of the following is an example of structured data?
+
+A table of names and student grades &check;
+
+Lung x-ray images
+
+The text from a series of books
+
+3.Question 3
+
+What is the reason behind the explosion of interest in big data?
+
+The price and difficulty of collecting and storing data has dramatically dropped &check;
+
+There have been massive improvements in machine learning algorithms
+
+There have been massive improvements in statistical analysis techniques
+
+
+
+
+
 ### Module 4 Quiz
+
+1.
+Question 1
+
+What is the format for including a link that appears as blue text in your markdown document?
+
+`[text that is shown](link.com)` &check;
+
+`(link.com)[text that is shown]`
+
+`(text that is shown)[link.com]`
+
+2.Question 2
+
+Which of the following describes a predictive analysis?
+
+Using data collected in the past to predict values in the future &check;
+
+Finding if one variable is related to another one
+
+Showing the effect on a variable of changing the values of another variable
+
+3.Question 3
+
+We collect data on all the songs in the Spotify catalogue and want to summarize how many are country western, hip-hop, classic rock, or other. What type of analysis is this?
+
+Exploratory
+
+Descriptive &check;
+
+Predictive
+
+4.Question 4
+
+What might a confounder be in an experiment looking at the relationship between the prevalence of white hair in a population and wrinkles?
+
+Age &check;
+
+Socioeconomic status
+
+Sex
+
+5.Question 5
+
+Which one of the following is an example of structured data?
+
+The text from a series of books
+
+Lung x-ray images
+
+A table of names and student grades &check;
 
 
 
@@ -1481,4 +1613,36 @@ Generate a table summarizing the number of observations in your dataset as well 
 ### Course Project
 
 
+
+Project Title
+
+Give your project a descriptive title
+
+Install R 
+
+Install Rstudio
+
+Open Rstudio and take a screenshot
+
+Upload a screenshot of Rstudio open on your screen using one of these formats: png, jpg, gif, pdf
+
+Be careful not to have personally identifiable or important information visible in the screen shot!
+
+Set up a Github account (you may use your own name or a pseudonym).
+
+Create a repo called datasciencecoursera
+
+Copy and paste the link to your GitHub account (or a direct link to your datasciencecoursera repo)
+
+Create a text file called HelloWorld.md
+
+Add the line "## This is a markdown file" (without the quotation marks) to the document
+
+Push the document to the datasciencecoursera repo you created on Github
+
+Submit the link to the HelloWorld.md file on your Github repo.
+
+Fork the data sharing repository here: https://github.com/jtleek/datasharing
+
+Copy and paste the link to the forked repository on your Github account.
 
