@@ -1150,9 +1150,6 @@ There is one of the huge benefits of R Markdown - rendering the results to code 
 [RStudio Cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
 
 
-
-
-
 Code chunk
 
 use 3 Backtick around the ```code chunk```, OR Cmd + Option + I , OR “Insert” button, that will also produce an empty code chunk
@@ -1161,6 +1158,12 @@ See the output of your code, select the line of code you want to run and use Ctr
 
 Multiple lines of code in a chunk, run the entire chunk by using Ctrl+Shift+Enter, OR hitting the green arrow button on the right side of the chunk, OR going to the Run menu and selecting Run current chunk.
 
+
+bulleted lists
+
+single dash and a space before the text
+
+- text
 
 
 
