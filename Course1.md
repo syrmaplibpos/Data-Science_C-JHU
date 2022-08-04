@@ -1125,7 +1125,7 @@ Learning Objectives
 
 ### R Markdown
 
-R Markdown is a way of creating fully reproducible documents, in which both text and code can be combined, can be rendered into HTML pages, or PDFs, or Word documents, or slides.
+* R Markdown is a way of creating fully reproducible documents, in which both text and code can be combined, can be rendered into HTML pages, or PDFs, or Word documents, or slides.
 
  reproducible -- share it and re-run the code and get the exact same answers
 
@@ -1150,7 +1150,7 @@ There is one of the huge benefits of R Markdown - rendering the results to code 
 [RStudio Cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
 
 
-Code chunk
+* Code chunk
 
 enclose the text between triple Backtick, the ```code chunk```, OR Cmd + Option + I , OR “Insert” button, that will also produce an empty code chunk
 
@@ -1159,7 +1159,7 @@ See the output of your code, select the line of code you want to run and use Ctr
 Multiple lines of code in a chunk, run the entire chunk by using Ctrl+Shift+Enter, OR hitting the green arrow button on the right side of the chunk, OR going to the Run menu and selecting Run current chunk.
 
 
-bulleted lists
+* Bulleted lists
 
 single hyphen(dash), plus or asterisk. and a space before the text
 
@@ -1167,7 +1167,7 @@ single hyphen(dash), plus or asterisk. and a space before the text
 
 
 
-italicized and bold text
+* Italicized and bold text
 
 enclose the text between double asterisk 
 
@@ -1176,7 +1176,7 @@ enclose the text between double asterisk
 `**text**`, **text**
 
 
-knit: produce final document
+* Knit: produce final document
 
 
 #### Practice Quiz
