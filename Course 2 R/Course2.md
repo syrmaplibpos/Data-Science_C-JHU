@@ -28,7 +28,7 @@ Week 4: Simulation, code profiling
 
 [R Programming for Data Science (purchase link)](http://bit.ly/rprogrammingcoursera)
 
-[leanpub categories](https://leanpub.com/cart_purchases/92A039DA357149F4A87D19F5BF12E0A1/thankyou)
+[leanpub categories](https://leanpub.com)
 
 [R Programming Course Companion](http://apple.co/1AAfjiY)
 
