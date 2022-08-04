@@ -171,10 +171,12 @@ The [1] indicates that x is a vector and 5 is the first element
 
 * Printing
 
-`> x <- 1:20`
-`> x`
-`[1]  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15`
-`[16] 16 17 18 19 20`
+```
+> x <- 1:20
+> x
+[1]  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15
+[16] 16 17 18 19 20
+```
 
 the `:` operator to create integer sequences
 
