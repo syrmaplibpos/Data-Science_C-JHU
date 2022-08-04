@@ -1155,7 +1155,7 @@ There is one of the huge benefits of R Markdown - rendering the results to code 
 
 Code chunk
 
-use ```code```, OR Cmd + Option + I , OR “Insert” button, that will also produce an empty code chunk
+use ``` ```code``` ```, OR Cmd + Option + I , OR “Insert” button, that will also produce an empty code chunk
 
 See the output of your code, select the line of code you want to run and use Ctrl+Enter or OR “Run” button, get output in your console window. 
 
