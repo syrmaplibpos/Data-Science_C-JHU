@@ -1163,22 +1163,17 @@ bulleted lists
 
 single hyphen(dash), plus or asterisk. and a space before the text
 
-`- text`  
-- text  
-`* text`  
-* text  
-`+ text`  
-+ text  
+`- text`, `* text`, `+ text`  
+
 
 
 italicized and bold text
 
 enclose the text between double asterisk 
 
-`*text*`  
-*text*  
-`**text**`  
-**text**  
+`*text*`, *text*
+
+`**text**`, **text**
 
 
 knit: produce final document
