@@ -1343,10 +1343,134 @@ This process involves clearly formulating your question in advance of any data c
 
 **hypothesis**: essentially an educated guess as to the relationship between your variables and the outcome of your experiment.
 
-**Sample size** is the number of experimental subjects you will include in your experiment.
+**Sample size**: the number of experimental subjects you will include in your experiment.
+
+**Confounder**: An extraneous variable that may affect the relationship between the dependent and independent variables.
+
+**control group**: manipulated and not manipulated
+
+**placebo effect**: subject knows that they are in the treatment group, and they feel better
+
+**blinded**: subjects don't know what group they are in
+
+**randomization**: to balance confounders, randomly assign individuals, potential confounders distributed roughly equally
+
+ we don’t know what will be a confounder beforehand; to help lessen the risk of accidentally biasing one group to be enriched for a confounder, you can randomly assign individuals to each of your groups. This means that any potential confounding variables should be distributed between each group roughly equally, to help eliminate/reduce systematic errors.
+
+**replication**: repeating an experiment with different experimental subjects.
+
+singel experiment results occured by chance; confounder unevenly distributed across your groups, there was a systematic error in the data collection, or outlier(abnormal distance)
+
+
+
+* Sharing data
+
+[ the Leek group](https://github.com/jtleek/datasharing)
+
+
+
+* Beware p-hacking!
+
+**p-value**
+
+the probability that the results of your experiment were observed by chance
+[video](https://www.youtube.com/watch?v=UsU-O2Z1rAs)
+
+p-value < 0.05, then a result is considered [significant](https://xkcd.com/1478/).
+
+[p-hacking](https://en.wikipedia.org/wiki/Data_dredging)
+
+ This is when you exhaustively search a data set to find patterns and correlations that appear statistically significant by virtue of the sheer number of tests you have performed. These spurious correlations can be reported as significant and if you perform enough tests, you can find a data set and analysis that will show you what you wanted to see.
+
+ [FiveThirtyEight](https://projects.fivethirtyeight.com/p-hacking/), [XKCD](https://xkcd.com/882/)
+
+
 
 
 #### Practice Quiz
+
+
+1.Question 1
+
+In a study measuring the effect of diet on BMI, cholesterol, lipid levels, triglyceride levels, and glycemic index, which is an independent variable?
+
+Diet &check;
+
+BMI
+
+Lipid levels
+
+2.Question 2
+
+Which of the following is NOT a method to control your experiments?
+
+Control group
+
+Placebo effect &check;
+
+Blinding
+
+3.Question 3
+
+What might a confounder be in an experiment looking at the relationship 
+between the prevalence of white hair in a population and wrinkles?
+
+Socioeconomic status
+
+Smoking status
+
+Age &check;
+
+4.Question 4
+
+According to Leek group recommendations, what data do you need to share with a collaborating statistician?
+
+The raw data
+
+A tidy data set
+
+A code book describing each variable and its values in the tidy data set
+
+An explicit and exact recipe of how you went from the raw data to the tidy data and the code book
+
+All of the above &check;
+
+5.Question 5
+
+If you set your signifance level at p-value ≤ 0.01, how many significant tests would you expect to see by chance if you carry out 1000 tests?
+
+10 &check;
+
+50
+
+100
+
+6.Question 6
+
+What is an experimental design tool that can be used to address variables that may be confounders at the design phase of an experiment?
+
+Using regression models
+
+Randomization &check;
+
+Using data from a database
+
+7.Question 7
+
+Which of the following describes a descriptive analysis?
+
+Use your sample data distribution to make predictions for the future
+
+Draw conclusions from your sample data distribution and infer for the larger population
+
+Generate a table summarizing the number of observations in your dataset as well as the central tendencies and variances of each variable &check;
+
+
+
+
+
+
+
 
 ### Big Data
 
