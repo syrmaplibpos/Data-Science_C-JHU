@@ -1240,6 +1240,15 @@ Macrame
 
 The main divisions of data science questions
 
+**1.Descriptive**
+**2.Exploratory**
+**3.Inferential**
+**4.Predictive**
+**5.Causal**
+**6.Mechanistic**
+
+
+
 1. Descriptive analysis
 
 describe or **summarize** a set of data, common descriptive statistics: measures of central tendency (eg: mean, median, mode) or measures of variability (eg: range, standard deviations or variance).
