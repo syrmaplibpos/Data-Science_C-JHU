@@ -1634,6 +1634,8 @@ Be careful not to have personally identifiable or important information visible 
 
 3. Copy and paste the link to your GitHub account (or a direct link to your datasciencecoursera repo)
 
+
+
 1. Create a text file called HelloWorld.md
 
 2. Add the line "## This is a markdown file" (without the quotation marks) to the document
@@ -1641,6 +1643,8 @@ Be careful not to have personally identifiable or important information visible 
 3. Push the document to the datasciencecoursera repo you created on Github
 
 4. Submit the link to the HelloWorld.md file on your Github repo.
+
+
 
 1. Fork the data sharing repository here: https://github.com/jtleek/datasharing
 
