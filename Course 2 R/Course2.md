@@ -4,6 +4,9 @@
   - [Week 1 Background, Getting Started, and Nuts & Bolts](#week-1-background-getting-started-and-nuts--bolts)
     - [Background Material](#background-material)
     - [Getting Started, and Nuts & Bolts](#getting-started-and-nuts--bolts)
+      - [Introduction](#introduction)
+      - [Overview and History](#overview-and-history)
+      - [Getting help](#getting-help)
 
 
 
@@ -76,4 +79,71 @@ set up an anonymous Github account
 
 
 ### Getting Started, and Nuts & Bolts
+
+Learning Objectives
+
+Install the R and RStudio software packages
+
+Download and install the swirl package for R
+
+Describe the history of the S and R programming lectures
+
+Describe the differences between atomic data types
+
+Execute basic arithmetic operations
+
+Subset R objects using the "[", "[[", and "$" operators and logical vectors
+
+Describe the explicit coercion feature of R
+
+Remove missing (NA) values from a vector
+
+#### Introduction
+#### Overview and History
+#### Getting help
+
+* Asking questions
+
+What steps will produce the problem
+
+what is the expected output
+
+what do you see instead
+
+what version of the product (e.g. R, packages, etc.) are you using
+
+what operating system
+
+additonal information
+
+
+* Smarter subject header
+
+R.3.0.2 Im() function on Mac OS X 10.9.1 --seg fault on large data frame
+
+* Wrong email example
+
+Questions sent to wrong email list
+
+email subject was very vague 
+
+question was very vague
+
+problem was not producible
+
+no evidence of any effort made to solve the problem
+
+result: recipe for diaster
+
+* Place to turn
+
+class dicussion forum, fellow students
+
+r-help@r-project.org
+
+other project specific mailing lists (eric raymond: how to ask questions in a smart way)
+
+
+
+
 
