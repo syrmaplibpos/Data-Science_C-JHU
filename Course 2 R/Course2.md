@@ -154,4 +154,4 @@ other project specific mailing lists (eric raymond: how to ask questions in a sm
 > x
 [1] 5
 
-The [1] indicates that x is a vector and 5 is the first element
+The [1] indicates that x(symbol) is a vector and 5 is the first element

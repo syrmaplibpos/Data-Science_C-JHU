@@ -1149,6 +1149,8 @@ There is one of the huge benefits of R Markdown - rendering the results to code 
 
 [RStudio Cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
 
+[Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+
 
 * Code chunk
 
