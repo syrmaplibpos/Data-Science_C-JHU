@@ -75,9 +75,5 @@ set up an anonymous Github account
 [Data Science Podcast: Not So Standard Deviations](https://soundcloud.com/nssd-podcast)
 
 
-
-
-
 ### Getting Started, and Nuts & Bolts
-
 
