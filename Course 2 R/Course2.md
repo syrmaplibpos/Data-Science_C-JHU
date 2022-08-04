@@ -1,11 +1,13 @@
-# [Coursera 2: R Programming](https://www.coursera.org/learn/data-scientists-tools/home/welcome)
+# [Coursera 2: R Programming](https://www.coursera.org/learn/r-programming/home/welcome)
+
+- [Coursera 2: R Programming](#coursera-2-r-programming)
+  - [Week 1 Background, Getting Started, and Nuts & Bolts](#week-1-background-getting-started-and-nuts--bolts)
+    - [Background Material](#background-material)
+    - [Getting Started, and Nuts & Bolts](#getting-started-and-nuts--bolts)
+
 
 
 ## Week 1 Background, Getting Started, and Nuts & Bolts
-
-
-
-
 
 ### Background Material
 
