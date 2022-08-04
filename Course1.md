@@ -1241,11 +1241,17 @@ Macrame
 The main divisions of data science questions
 
 **1.Descriptive**
+
 **2.Exploratory**
+
 **3.Inferential**
+
 **4.Predictive**
+
 **5.Causal**
+
 **6.Mechanistic**
+
 
 
 
