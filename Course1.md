@@ -1618,31 +1618,31 @@ Project Title
 
 Give your project a descriptive title
 
-Install R 
+1. Install R 
 
-Install Rstudio
+2. Install Rstudio
 
-Open Rstudio and take a screenshot
+3. Open Rstudio and take a screenshot
 
-Upload a screenshot of Rstudio open on your screen using one of these formats: png, jpg, gif, pdf
+4. Upload a screenshot of Rstudio open on your screen using one of these formats: png, jpg, gif, pdf
 
 Be careful not to have personally identifiable or important information visible in the screen shot!
 
-Set up a Github account (you may use your own name or a pseudonym).
+1. Set up a Github account (you may use your own name or a pseudonym).
 
-Create a repo called datasciencecoursera
+2. Create a repo called datasciencecoursera
 
-Copy and paste the link to your GitHub account (or a direct link to your datasciencecoursera repo)
+3. Copy and paste the link to your GitHub account (or a direct link to your datasciencecoursera repo)
 
-Create a text file called HelloWorld.md
+1. Create a text file called HelloWorld.md
 
-Add the line "## This is a markdown file" (without the quotation marks) to the document
+2. Add the line "## This is a markdown file" (without the quotation marks) to the document
 
-Push the document to the datasciencecoursera repo you created on Github
+3. Push the document to the datasciencecoursera repo you created on Github
 
-Submit the link to the HelloWorld.md file on your Github repo.
+4. Submit the link to the HelloWorld.md file on your Github repo.
 
-Fork the data sharing repository here: https://github.com/jtleek/datasharing
+1. Fork the data sharing repository here: https://github.com/jtleek/datasharing
 
-Copy and paste the link to the forked repository on your Github account.
+2. Copy and paste the link to the forked repository on your Github account.
 
