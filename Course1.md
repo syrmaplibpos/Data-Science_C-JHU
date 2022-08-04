@@ -1125,6 +1125,42 @@ Learning Objectives
 
 ### R Markdown
 
+R Markdown is a way of creating fully reproducible documents, in which both text and code can be combined, can be rendered into HTML pages, or PDFs, or Word documents, or slides.
+
+ reproducible -- share it and re-run the code and get the exact same answers
+
+[R Markdown](https://vimeo.com/178485416)
+
+`install.packages("rmarkdown")`
+
+File -> New File -> R Markdown
+
+There is one of the huge benefits of R Markdown - rendering the results to code inline.
+
+[Introduction](https://rmarkdown.rstudio.com/lesson-1.html)
+
+[Markdown Basics](https://rmarkdown.rstudio.com/authoring_basics.html)
+
+[Cheatsheet](https://github.com/rstudio/cheatsheets/raw/main/rmarkdown-2.0.pdf)
+
+[Reference Guide](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf?_ga=2.111473092.1190999278.1659485767-1996794053.1659127725)
+
+[R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
+
+[RStudio Cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
+
+
+
+
+
+Code chunk
+
+use ```code```, OR Cmd + Option + I , OR “Insert” button, that will also produce an empty code chunk
+
+See the output of your code, select the line of code you want to run and use Ctrl+Enter or OR “Run” button, get output in your console window. 
+
+Multiple lines of code in a chunk, run the entire chunk by using Ctrl+Shift+Enter, OR hitting the green arrow button on the right side of the chunk, OR going to the Run menu and selecting Run current chunk.
+
 
 
 
