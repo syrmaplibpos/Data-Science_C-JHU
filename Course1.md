@@ -1252,7 +1252,7 @@ examine or **explore** the data and find **relationships** that weren’t previo
 
 use a relatively **small sample** of data to **infer** or say something about the **population** at large. 
 
-*Inferential analysis is commonly the goal of statistical modelling*
+***Inferential analysis is commonly the goal of statistical modelling***
 
 4. Predictive analysis
 
