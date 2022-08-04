@@ -1152,7 +1152,7 @@ There is one of the huge benefits of R Markdown - rendering the results to code 
 
 Code chunk
 
-use 3 Backtick around the ```code chunk```, OR Cmd + Option + I , OR “Insert” button, that will also produce an empty code chunk
+enclose the text between triple Backtick, the ```code chunk```, OR Cmd + Option + I , OR “Insert” button, that will also produce an empty code chunk
 
 See the output of your code, select the line of code you want to run and use Ctrl+Enter or OR “Run” button, get output in your console window. 
 
@@ -1163,13 +1163,81 @@ bulleted lists
 
 single hyphen(dash), plus or asterisk. and a space before the text
 
-- text
-* text
-+ text
+`- text`  
+- text  
+`* text`  
+* text  
+`+ text`  
++ text  
 
+
+italicized and bold text
+
+enclose the text between double asterisk 
+
+`*text*`  
+*text*  
+`**text**`  
+**text**  
+
+
+knit: produce final document
 
 
 #### Practice Quiz
+
+1.Question 1
+
+How would you strike through some text?
+
+```\strikethrough\```
+
+```~~strikethrough~~``` &check;
+
+```--strikethrough--```
+
+2.Question 2
+
+What is the format for including a link that appears as blue text in your markdown document?
+
+`![link.com](text that is shown)`
+
+`(text that is shown)[link.com]`
+
+`[text that is shown](link.com)` &check;
+
+3.Question 3
+
+How do you produce bold text?
+
+`**bold**` &check;
+
+`_bold_`
+
+`~~bold~~`
+
+4.Question 4
+How do you produce italicized text?
+
+`__some text__`
+
+`**some text**`
+
+`*some text*` &check;
+
+5.Question 5
+
+How do you produce your final document?
+
+Knit &check;
+
+Crochet
+
+Macrame
+
+
+
+
 
 ### Types of Data Science Questions
 
