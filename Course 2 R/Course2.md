@@ -8,6 +8,7 @@
       - [Overview and History](#overview-and-history)
       - [Getting help](#getting-help)
       - [R Console Input and Evaluation](#r-console-input-and-evaluation)
+      - [R Data Types: Objects and Attributes](#r-data-types-objects-and-attributes)
 
 
 
@@ -150,10 +151,36 @@ other project specific mailing lists (eric raymond: how to ask questions in a sm
 
 #### R Console Input and Evaluation
 
+* Entering input
+
+`>` to assign
+
+`> x<-5 ## comment`
+
+`#`to comment
+
+* Evaluation
+
 ```
-> x<-5
 > x
 [1] 5
 ```
+when enter at the prompt, it is evaluated and result of the evaluated expression is returned
 
-The [1] indicates that x(symbol) is a vector and 5 is the first element
+The [1] indicates that x is a vector and 5 is the first element
+
+* Printing
+
+`> x <- 1:20`
+`> x`
+`[1]  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15`
+`[16] 16 17 18 19 20`
+
+the `:` operator to create integer sequences
+
+#### R Data Types: Objects and Attributes
+
+
+
+
+
