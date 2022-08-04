@@ -1164,6 +1164,7 @@ bulleted lists
 single dash and a space before the text
 
 - text
+* text
 
 
 
