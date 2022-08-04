@@ -150,8 +150,10 @@ other project specific mailing lists (eric raymond: how to ask questions in a sm
 
 #### R Console Input and Evaluation
 
+```
 > x<-5
 > x
 [1] 5
+```
 
 The [1] indicates that x(symbol) is a vector and 5 is the first element
