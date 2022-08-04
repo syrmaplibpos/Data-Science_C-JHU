@@ -1618,6 +1618,8 @@ Project Title
 
 Give your project a descriptive title
 
+Part 1
+
 1. Install R 
 
 2. Install Rstudio
@@ -1628,13 +1630,15 @@ Give your project a descriptive title
 
 Be careful not to have personally identifiable or important information visible in the screen shot!
 
+Part 2
+
 1. Set up a Github account (you may use your own name or a pseudonym).
 
 2. Create a repo called datasciencecoursera
 
 3. Copy and paste the link to your GitHub account (or a direct link to your datasciencecoursera repo)
 
-
+Part 3
 
 1. Create a text file called HelloWorld.md
 
@@ -1644,7 +1648,7 @@ Be careful not to have personally identifiable or important information visible 
 
 4. Submit the link to the HelloWorld.md file on your Github repo.
 
-
+Part 4
 
 1. Fork the data sharing repository here: https://github.com/jtleek/datasharing
 
