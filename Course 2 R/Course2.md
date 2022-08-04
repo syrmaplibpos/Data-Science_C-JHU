@@ -147,7 +147,9 @@ r-help@r-project.org
 
 other project specific mailing lists (eric raymond: how to ask questions in a smart way)
 
+[Base R Cheatsheet](http://github.com/rstudio/cheatsheets/blob/main/base-r.pdf)
 
+[RStudio Cheatsheet](https://www.rstudio.com/resources/cheatsheets/)
 
 #### R Console Input and Evaluation
 
