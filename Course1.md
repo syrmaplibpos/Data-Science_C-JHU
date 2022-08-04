@@ -1161,10 +1161,11 @@ Multiple lines of code in a chunk, run the entire chunk by using Ctrl+Shift+Ente
 
 bulleted lists
 
-single dash and a space before the text
+single hyphen(dash), plus or asterisk. and a space before the text
 
 - text
 * text
++ text
 
 
 
