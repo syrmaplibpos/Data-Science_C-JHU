@@ -1129,7 +1129,7 @@ Learning Objectives
 
  reproducible -- share it and re-run the code and get the exact same answers
 
-[R Markdown](https://vimeo.com/178485416)
+[A video on R Markdown](https://vimeo.com/178485416)
 
 `install.packages("rmarkdown")`
 
@@ -1235,6 +1235,43 @@ Macrame
 
 
 ### Types of Data Science Questions
+
+
+
+The main divisions of data science questions
+
+1. Descriptive analysis
+
+describe or **summarize** a set of data, common descriptive statistics: measures of central tendency (eg: mean, median, mode) or measures of variability (eg: range, standard deviations or variance).
+
+2. Exploratory analysis
+
+examine or **explore** the data and find **relationships** that weren’t previously known. however, Correlation does not imply causation
+
+3. Inferential analysis
+
+use a relatively **small sample** of data to **infer** or say something about the **population** at large. 
+
+*Inferential analysis is commonly the goal of statistical modelling*
+
+4. Predictive analysis
+
+use **current** data to make **predictions** about **future** data
+
+5. Causal analysis
+
+see what happens to one variable when we manipulate another variable - looking at the **cause** and **effect** of a **relationship**.
+
+6. Mechanistic analysis
+
+understand the **exact changes in variables** that lead to **exact changes in other variables**.
+
+
+
+
+
+
+
 
 
 
