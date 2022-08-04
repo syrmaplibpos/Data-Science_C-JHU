@@ -1137,13 +1137,13 @@ File -> New File -> R Markdown
 
 There is one of the huge benefits of R Markdown - rendering the results to code inline.
 
-[Introduction](https://rmarkdown.rstudio.com/lesson-1.html)
+[R Markdown Introduction](https://rmarkdown.rstudio.com/lesson-1.html)
 
-[Markdown Basics](https://rmarkdown.rstudio.com/authoring_basics.html)
+[R Markdown Basics](https://rmarkdown.rstudio.com/authoring_basics.html)
 
-[Cheatsheet](https://github.com/rstudio/cheatsheets/raw/main/rmarkdown-2.0.pdf)
+[R Markdown Cheatsheet](https://github.com/rstudio/cheatsheets/raw/main/rmarkdown-2.0.pdf)
 
-[Reference Guide](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf?_ga=2.111473092.1190999278.1659485767-1996794053.1659127725)
+[R Markdown Reference Guide](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf?_ga=2.111473092.1190999278.1659485767-1996794053.1659127725)
 
 [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
 
