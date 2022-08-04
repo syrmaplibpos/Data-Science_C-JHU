@@ -7,6 +7,7 @@
       - [Introduction](#introduction)
       - [Overview and History](#overview-and-history)
       - [Getting help](#getting-help)
+      - [R Console Input and Evaluation](#r-console-input-and-evaluation)
 
 
 
@@ -147,5 +148,10 @@ other project specific mailing lists (eric raymond: how to ask questions in a sm
 
 
 
+#### R Console Input and Evaluation
 
+> x<-5
+> x
+[1] 5
 
+The [1] indicates that x is a vector and 5 is the first element
