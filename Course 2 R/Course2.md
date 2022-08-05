@@ -261,7 +261,11 @@ Creating Vectors
 > x <- c(1+0i, 2+4i)     ## complex
 ```
 
-
+```
+> x <- vector("numeric", length = 10) 
+> x
+ [1] 0 0 0 0 0 0 0 0 0 0
+```
 
 
 
