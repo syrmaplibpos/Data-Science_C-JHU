@@ -230,7 +230,7 @@ NaN can also be thought of as a missing value (more on that later)
 
 #### Attributes
 
-metadata, help to describe the object
+**metadata, help to describe the object**
 
 names, dimnames
 
@@ -247,6 +247,31 @@ other user-defined attributes/metadata
 
 
 ### R Data Types: Vectors and Lists
+
+Creating Vectors
+
+ `c()` function to create vectors of objects by concatenating things together.
+
+```
+
+> x <- c(0.5, 0.6)       ## numeric
+> x <- c(TRUE, FALSE)    ## logical
+> x <- c(T, F)           ## logical
+> x <- c("a", "b", "c")  ## character
+> x <- 9:29              ## integer
+> x <- c(1+0i, 2+4i)     ## complex
+
+```
+
+
+
+
+
+
+
+
+
+
 
 ### R Data Types: Matrices
 
