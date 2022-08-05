@@ -512,9 +512,9 @@ Missing values are denoted by NA or NaN for undefined mathematical operations.
 
 * Data frames are represented as a special type of list where every element of the list has to have the same length. Each element of the list can be thought of as a column and the length of each element of the list is the number of rows.
 
-* Unlike matrices, data frames can store different classes of objects in each column. Matrices must have every element be the same class (e.g. all integers or all numeric).
+* Unlike matrices, data frames can store different classes of objects in each column. Matrices must have every element be the same class.
 
-* Data frames have a special attribute called row.names which indicate information about each row of the data frame.
+* Data frames have a special attribute called row.names.
 
 * Data frames are usually created by reading in a dataset using the read.table() or read.csv().
 
@@ -538,10 +538,53 @@ Missing values are denoted by NA or NaN for undefined mathematical operations.
 
 ### R Data Types: Names Attribute
 
+R objects can have names, which is very useful for writing readable code and self-describing objects. 
+
+```
+> x <- 1:3
+> names(x)
+NULL
+> names(x) <- c("New York", "Seattle", "Los Angeles") 
+> x
+   New York     Seattle Los Angeles 
+          1           2           3 
+> names(x)
+[1] "New York"    "Seattle"     "Los Angeles"
+```
 
 
+Lists can also have names
+
+```
+> x <- list("Los Angeles" = 1, Boston = 2, London = 3) 
+> x
+$`Los Angeles`
+[1] 1
+$Boston
+[1] 2
+$London
+[1] 3
+> names(x)
+[1] "Los Angeles" "Boston"      "London"     
+```
+
+Matrices can have both column and row names.
+
+```
+> m <- matrix(1:4, nrow = 2, ncol = 2)
+> dimnames(m) <- list(c("a", "b"), c("c", "d")) 
+> m
+  c d
+a 1 3
+b 2 4
+```
 
 
+| Object      | Set column names   | Set row names   |
+| ----------- | ------------------ | --------------- |
+| data frame  | names()            | row.names()     |
+| ----------- | ------------------ | --------------- |
+| matrix      | colnames()         | rownames()      |
 
 
 ### R Data Types: Summary
