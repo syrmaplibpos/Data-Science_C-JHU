@@ -434,12 +434,17 @@ y   10   11   12
 ### R Data Types: Factors
 
 
+* categorical
 
-Factors are used to represent categorical data and can be unordered or ordered. 
+To represent categorical data, unordered or ordered. 
 
-One can think of a factor as an integer vector where each integer has a label. 
+* label
 
-Factors are important in statistical modeling and are treated specially by modelling functions like lm() and glm().
+as an integer vector where each integer has a label. 
+
+important in statistical modeling and are treated specially by modelling functions like lm() and glm().
+
+* self-describing
 
 Using factors with labels is better than using integers because factors are self-describing. Having a variable that has values “Male” and “Female” is better than a variable that has values 1 and 2.
 
@@ -460,7 +465,7 @@ attr(,"levels")
 [1] "no"  "yes"
 ```
 
-
+* set order of levels
 The order of the levels of a factor can be set using the levels argument to factor(). This can be important in linear modelling because the first level is used as the baseline level.
 
 ```
@@ -476,18 +481,58 @@ Levels: yes no
 ```
 
 
-
-
 ### R Data Types: Missing Values
 
+Missing values are denoted by NA or NaN for undefined mathematical operations.
+
+* is.na() is used to test objects if they are NA
+
+* is.nan() is used to test for NaN
+
+* NA values have a class also, so there are integer NA, character NA, etc.
+
+* A NaN value is also NA but the converse is not true
 
 
+```
+> ## Create a vector with NAs in it
+> x <- c(1, 2, NA, 10, 3)  
+> ## Return a logical vector indicating which elements are NA
+> is.na(x)    
+[1] FALSE FALSE  TRUE FALSE FALSE
+> ## Return a logical vector indicating which elements are NaN
+> is.nan(x)   
+[1] FALSE FALSE FALSE FALSE FALSE
+```
 
 
 ### R Data Types: Data Frames
 
+* store tabular data
 
+* Data frames are represented as a special type of list where every element of the list has to have the same length. Each element of the list can be thought of as a column and the length of each element of the list is the number of rows.
 
+* Unlike matrices, data frames can store different classes of objects in each column. Matrices must have every element be the same class (e.g. all integers or all numeric).
+
+* Data frames have a special attribute called row.names which indicate information about each row of the data frame.
+
+* Data frames are usually created by reading in a dataset using the read.table() or read.csv().
+
+* Data frames can be converted to a matrix by calling data.matrix(). 
+
+```
+> x <- data.frame(foo = 1:4, bar = c(T, T, F, F)) 
+> x
+  foo   bar
+1   1  TRUE
+2   2  TRUE
+3   3 FALSE
+4   4 FALSE
+> nrow(x)
+[1] 4
+> ncol(x)
+[1] 2
+```
 
 
 
