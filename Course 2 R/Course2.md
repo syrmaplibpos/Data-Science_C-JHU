@@ -4,11 +4,21 @@
   - [Week 1 Background, Getting Started, and Nuts & Bolts](#week-1-background-getting-started-and-nuts--bolts)
     - [Background Material](#background-material)
     - [Getting Started, and Nuts & Bolts](#getting-started-and-nuts--bolts)
-      - [Introduction](#introduction)
-      - [Overview and History](#overview-and-history)
-      - [Getting help](#getting-help)
-      - [R Console Input and Evaluation](#r-console-input-and-evaluation)
-      - [R Data Types: Objects and Attributes](#r-data-types-objects-and-attributes)
+    - [Introduction](#introduction)
+    - [Overview and History](#overview-and-history)
+    - [Getting help](#getting-help)
+    - [R Console Input and Evaluation](#r-console-input-and-evaluation)
+    - [R Data Types: Objects and Attributes](#r-data-types-objects-and-attributes)
+    - [R Data Types: Vectors and Lists](#r-data-types-vectors-and-lists)
+    - [R Data Types: Matrices](#r-data-types-matrices)
+    - [R Data Types: Factors](#r-data-types-factors)
+    - [R Data Types: Missing Values](#r-data-types-missing-values)
+    - [R Data Types: Data Frames](#r-data-types-data-frames)
+    - [R Data Types: Names Attribute](#r-data-types-names-attribute)
+    - [R Data Types: Summary](#r-data-types-summary)
+    - [Reading Tabular Data](#reading-tabular-data)
+    - [Reading Large Tables](#reading-large-tables)
+    - [Textual Data Formats](#textual-data-formats)
 
 
 
@@ -102,9 +112,9 @@ Describe the explicit coercion feature of R
 
 Remove missing (NA) values from a vector
 
-#### Introduction
-#### Overview and History
-#### Getting help
+### Introduction
+### Overview and History
+### Getting help
 
 * Asking questions
 
@@ -151,7 +161,7 @@ other project specific mailing lists (eric raymond: how to ask questions in a sm
 
 [RStudio Cheatsheet](https://www.rstudio.com/resources/cheatsheets/)
 
-#### R Console Input and Evaluation
+### R Console Input and Evaluation
 
 * Entering input
 
@@ -182,9 +192,60 @@ The [1] indicates that x is a vector and 5 is the first element
 
 the `:` operator to create integer sequences
 
-#### R Data Types: Objects and Attributes
 
 
+### R Data Types: Objects and Attributes
+
+R has five basic or “atomic” classes of objects:
+
+* character
+
+* numeric (real numbers)
+
+* integer
+
+* complex
+
+* logical (True/False)
+
+The most basic type of R object is a vector.
+
+`vector()` to create empty vector
+
+**A vector can only contain objects of the same class.**
+
+**A list is represented as a vector but can contain objects of different classes.**
+
+* Numbers 1, 2 are numeric objects, unless specify by using 1L, 2L as integer object.
+
+Numbeer **Inf** infinity, can be used in ordinary calculations
+
+value **NaN** an undefined value (“not a number”); e.g. 0 / 0; NaN can also be thought of as a missing value (more on that later)
+
+
+
+
+
+
+### R Data Types: Vectors and Lists
+
+### R Data Types: Matrices
+
+### R Data Types: Factors
+
+### R Data Types: Missing Values
+
+### R Data Types: Data Frames
+
+### R Data Types: Names Attribute
+
+### R Data Types: Summary
+
+### Reading Tabular Data
+
+### Reading Large Tables
+
+### Textual Data Formats
 
 
 
