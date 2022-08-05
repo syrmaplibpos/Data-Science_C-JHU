@@ -580,11 +580,10 @@ b 2 4
 ```
 
 
-| Object      | Set column names   | Set row names   |
-| ----------- | ------------------ | --------------- |
-| data frame  | names()            | row.names()     |
-| ----------- | ------------------ | --------------- |
-| matrix      | colnames()         | rownames()      |
+| Object     | Set column names | Set row names |
+| ---------- | ---------------- | ------------- |
+| data frame | names()          | row.names()   |
+| matrix     | colnames()       | rownames()    |
 
 
 ### R Data Types: Summary
