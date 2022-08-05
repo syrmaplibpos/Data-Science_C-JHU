@@ -248,7 +248,7 @@ other user-defined attributes/metadata
 
 ### R Data Types: Vectors and Lists
 
-Creating Vectors
+* Creating Vectors
 
  `c()` function to create vectors of objects by concatenating things together.
 
@@ -267,6 +267,89 @@ Creating Vectors
  [1] 0 0 0 0 0 0 0 0 0 0
 ```
 
+* Mixing Objects
+
+implicit coercion
+
+```
+ > y <- c(1.7, "a")   ## character
+> y <- c(TRUE, 2)    ## numeric
+> y <- c("a", TRUE)  ## character
+```
+
+
+* Explicit Coercion
+
+as.* functions
+
+```
+> x <- 0:6
+> class(x)
+[1] "integer"
+> as.numeric(x)
+[1] 0 1 2 3 4 5 6
+> as.logical(x)
+[1] FALSE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE
+> as.character(x)
+[1] "0" "1" "2" "3" "4" "5" "6"
+```
+
+```
+> x <- c("a", "b", "c")
+> as.numeric(x)
+Warning: NAs introduced by coercion
+[1] NA NA NA
+> as.logical(x)
+[1] NA NA NA
+> as.complex(x)
+Warning: NAs introduced by coercion
+[1] NA NA NA
+```
+
+```
+> x <- c("a", "b", "c")
+> as.numeric(x)
+Warning: NAs introduced by coercion
+[1] NA NA NA
+> as.logical(x)
+[1] NA NA NA
+> as.complex(x)
+Warning: NAs introduced by coercion
+[1] NA NA NA
+```
+
+nonsensical coercion results in NA
+
+
+
+* Lists
+
+Lists are a special type of vector that can contain elements of different classes.
+very important data type in R
+
+```
+> x <- list(1, "a", TRUE, 1 + 4i) 
+> x
+[[1]]
+[1] 1
+
+[[2]]
+[1] "a"
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] 1+4i
+```
+
+the elements are double brackets [[1]]
+
+
+
+
+
+
 
 
 
@@ -277,19 +360,165 @@ Creating Vectors
 
 ### R Data Types: Matrices
 
+
+* dimension attribute
+
+Matrices are vectors with a dimension attribute that is an integer vector of length 2 (number of rows, number of columns)
+
+```
+> m <- matrix(nrow = 2, ncol = 3) 
+> m
+     [,1] [,2] [,3]
+[1,]   NA   NA   NA
+[2,]   NA   NA   NA
+> dim(m)
+[1] 2 3
+> attributes(m)
+$dim
+[1] 2 3
+
+```
+
+
+* column-wise
+
+Matrices are constructed column-wise, so entries can be thought of starting in the “upper left” corner and running down the columns.
+
+
+```
+> m <- matrix(1:6, nrow = 2, ncol = 3) 
+> m
+     [,1] [,2] [,3]
+[1,]    1    3    5
+[2,]    2    4    6
+```
+
+* dimension attribute direct create
+
+* Matrices can also be created directly from vectors by adding a dimension attribute.
+
+```
+> m <- 1:10
+> m
+ [1]  1  2  3  4  5  6  7  8  9 10
+> dim(m)<-c(2,5)
+> m
+     [,1] [,2] [,3] [,4] [,5]
+[1,]    1    3    5    7    9
+[2,]    2    4    6    8   10
+```
+
+* cbinging and rbinding
+
+Matrices can be created by column-binding or row-binding with the cbind() and rbind() functions.
+
+```
+> x <- 1:3
+> y <- 10:12
+> cbind(x, y)
+     x  y
+[1,] 1 10
+[2,] 2 11
+[3,] 3 12
+> rbind(x, y) 
+  [,1] [,2] [,3]
+x    1    2    3
+y   10   11   12
+```
+
+
+
+
+
+
 ### R Data Types: Factors
+
+
+
+Factors are used to represent categorical data and can be unordered or ordered. 
+
+One can think of a factor as an integer vector where each integer has a label. 
+
+Factors are important in statistical modeling and are treated specially by modelling functions like lm() and glm().
+
+Using factors with labels is better than using integers because factors are self-describing. Having a variable that has values “Male” and “Female” is better than a variable that has values 1 and 2.
+
+
+```
+> x <- factor(c("yes", "yes", "no", "yes", "no")) 
+> x
+[1] yes yes no  yes no 
+Levels: no yes
+> table(x) 
+x
+ no yes 
+  2   3 
+> ## See the underlying representation of factor
+> unclass(x)  
+[1] 2 2 1 2 1
+attr(,"levels")
+[1] "no"  "yes"
+```
+
+
+The order of the levels of a factor can be set using the levels argument to factor(). This can be important in linear modelling because the first level is used as the baseline level.
+
+```
+> x <- factor(c("yes", "yes", "no", "yes", "no"))
+> x  ## Levels are put in alphabetical order
+[1] yes yes no  yes no 
+Levels: no yes
+> x <- factor(c("yes", "yes", "no", "yes", "no"),
++             levels = c("yes", "no"))
+> x
+[1] yes yes no  yes no 
+Levels: yes no
+```
+
+
+
 
 ### R Data Types: Missing Values
 
+
+
+
+
 ### R Data Types: Data Frames
+
+
+
+
+
 
 ### R Data Types: Names Attribute
 
+
+
+
+
+
+
 ### R Data Types: Summary
+
+
+
+
+
+
 
 ### Reading Tabular Data
 
+
+
+
+
+
 ### Reading Large Tables
+
+
+
+
 
 ### Textual Data Formats
 
