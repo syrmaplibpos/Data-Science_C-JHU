@@ -220,7 +220,7 @@ The most basic type of R object is a vector.
 
 Numbeer **Inf** infinity, can be used in ordinary calculations
 
-value **NaN** an undefined value (“not a number”); e.g. 0 / 0; NaN can also be thought of as a missing value (more on that later)
+value <u>**NaN**</u> an undefined value (“not a number”); e.g. 0 / 0; NaN can also be thought of as a missing value (more on that later)
 
 
 
