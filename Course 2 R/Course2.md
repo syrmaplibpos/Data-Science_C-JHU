@@ -9,6 +9,8 @@
     - [Getting help](#getting-help)
     - [R Console Input and Evaluation](#r-console-input-and-evaluation)
     - [R Data Types: Objects and Attributes](#r-data-types-objects-and-attributes)
+      - [Objects](#objects)
+      - [Attributes](#attributes)
     - [R Data Types: Vectors and Lists](#r-data-types-vectors-and-lists)
     - [R Data Types: Matrices](#r-data-types-matrices)
     - [R Data Types: Factors](#r-data-types-factors)
@@ -196,6 +198,8 @@ the `:` operator to create integer sequences
 
 ### R Data Types: Objects and Attributes
 
+#### Objects 
+
 R has five basic or “atomic” classes of objects:
 
 * character
@@ -218,10 +222,25 @@ The most basic type of R object is a vector.
 
 * Numbers 1, 2 are numeric objects, unless specify by using 1L, 2L as integer object.
 
-Numbeer **Inf** infinity, can be used in ordinary calculations
+Number **Inf** infinity, can be used in ordinary calculations
 
-value **NaN** an undefined value (“not a number”); e.g. 0 / 0; NaN can also be thought of as a missing value (more on that later)
+value **NaN** an undefined value (“not a number”); e.g. 0 / 0; 
 
+NaN can also be thought of as a missing value (more on that later)
+
+#### Attributes
+
+metadata, help to describe the object
+
+names, dimnames
+
+dimensions (e.g. matrices, arrays)
+
+class (e.g. integer, numeric)
+
+length
+
+other user-defined attributes/metadata
 
 
 
