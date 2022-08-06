@@ -778,8 +778,117 @@ Multiple objects can be deparsed at once using the dump function and read back i
 
 ### Connections: Interfaces to the outside world
 
+* connection interfaces
+
+Data are read in using connection interfaces. Connections can be made to files (most common) or to other more exotic things.
+
+file, opens a connection to a file
+
+gzfile, opens a connection to a file compressed with gzip
+
+bzfile, opens a connection to a file compressed with bzip2
+
+url, opens a connection to a webpage
+
+* File Connections
+
+Connections to text files can be created with the file() function.
+
+```
+> str(file)
+function (description = "", open = "", blocking = TRUE, encoding = getOption("encoding"), 
+    raw = FALSE, method = getOption("url.method", "default"))  
+```
+
+str(file): Str() function is to output the structure of a R object
+
+* * description is the name of the file
+
+* * open is a code indicating what mode the file should be opened in, is the only important option
+
+“r” open file in read only mode
+
+“w” open a file for writing (and initializing a new file)
+
+“a” open a file for appending
+
+“rb”, “wb”, “ab” reading, writing, or appending in binary mode (Windows)
 
 
+In general, connections are powerful tools that let you navigate files or other external objects. 
+
+* In practice, we often don’t need to deal with the connection interface directly as many functions for reading and writing data just deal with it in the background.
+
+If explicitly use connections to read a CSV file in to R
+
+```
+> ## Create a connection to 'foo.txt'
+> con <- file("foo.txt")       
+> 
+> ## Open connection to 'foo.txt' in read-only mode
+> open(con, "r")               
+> 
+> ## Read from the connection
+> data <- read.csv(con)        
+> 
+> ## Close the connection
+> close(con)                   
+```
+
+**which is the same as**
+
+```
+> data <- read.csv("foo.txt")
+```
+
+In the background, read.csv() opens a connection to the file foo.txt, reads from it, and closes the connection when it’s done.
+
+
+* Reading Lines of a Text File
+
+Sometimes connection is useful if wanna read parts of a file
+
+Text files can be read line by line using the readLines() function. This function is useful for reading text files that may be unstructured or contain non-standard data.
+
+```
+> ## Open connection to gz-compressed text file
+> con <- gzfile("words.gz")   
+> x <- readLines(con, 10) 
+> x
+ [1] "1080"     "10-point" "10th"     "11-point" "12-point" "16-point"
+ [7] "18-point" "1st"      "2"        "20-point"
+```
+
+gzfile(): to read from a file without uncompress the file first, which would be a waste of space and time.
+
+Similarly, writeLines() that takes a character vector and writes each element of the vector one line at a time to a text file.
+
+
+* Reading From a URL Connection
+
+The readLines() function can be useful for reading in lines of webpages.
+
+This code might take time depending on connection speed.
+
+```
+> ## Open a URL connection for reading
+> con <- url("https://www.jhu.edu", "r")  
+> 
+> ## Read the web page
+> x <- readLines(con)                      
+> 
+> ## Print out the first few lines
+> head(x)                                  
+[1] "<!doctype html>"                    ""                                  
+[3] "<html class=\"no-js\" lang=\"en\">" "  <head>"                          
+[5] "    <script>"                       "    dataLayer = [];"               
+```
+
+the lines from html will be stored in character vector x
+
+url() function to create a url connection to a web server.
+
+more commonly, use URL connection to read in specific data files that are stored on web servers, and preferable to opening a web browser and downloading a dataset by hand
 
 
 
