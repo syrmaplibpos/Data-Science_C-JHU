@@ -1177,6 +1177,7 @@ To replace loop operation like for or while
 
 Vectorized Matrix Operations
 
+```
 > x <- matrix(1:4, 2, 2)
 > y <- matrix(rep(10, 4), 2, 2)
 > x
@@ -1205,3 +1206,4 @@ Vectorized Matrix Operations
      [,1] [,2]
 [1,]   40   40
 [2,]   60   60
+```
