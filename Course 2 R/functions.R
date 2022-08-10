@@ -22,3 +22,4 @@ columnmean<-function(y,removeNA=TRUE){
 }
 
 
+# na.rm is a logical indicating whether missing values should be removed or not.

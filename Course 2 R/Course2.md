@@ -1842,6 +1842,69 @@ integer(0)
 
 ### Functions (part 1)
 
+Functions are defined using the function() directive and are stored as R objects just like anything else. In particular, they are R objects of class “function”.
+
+```
+f<-function(<arguments>){
+     ##do something interesting
+}
+```
+
+Functions in R are first class objects, which means that they can be treated much like any other R object. Importantly, 
+
+* Functions can be passed as arguments to other functions 
+* Functions can be nested, so that you can define a function inside of another function 
+* **The return value of a function is the last expression in the function body to be evaluated**
+
+
+
+Function Arguments
+
+Functions have named arguments which potentially have default values
+
+* The formal arguments are the arguments included in the function definition
+
+* The formals function returns a list of all the formal arguments of a function
+
+* Not every function call in R make use of all the formal arguments
+
+* Function arguments can be missing or might have default values
+
+
+Argument Matching
+
+R functions arguments can be matched positionally or by name
+
+```
+> str(rnorm)
+function (n, mean = 0, sd = 1)  
+> mydata <- rnorm(100, 2, 1)              ## Generate some data
+> ## Positional match first argument, default for 'na.rm'
+> sd(mydata)                     
+[1] 0.9328666
+> ## Specify 'x' argument by name, default for 'na.rm'
+> sd(x = mydata)                 
+[1] 0.9328666
+> ## Specify both arguments by name
+> sd(x = mydata, na.rm = FALSE)  
+[1] 0.9328666
+> ## Specify both arguments by name
+> sd(na.rm = FALSE, x = mydata)     
+[1] 0.9328666
+> sd(na.rm = FALSE, mydata)
+[1] 0.9328666
+```
+
+standard deviation `sd()` has two arguments: x indicates the vector of numbers and na.rm is a logical indicating whether missing values should be removed or not.
+
+Even though it is legal, I dont recommend missing around with the order of the arguments too much, since it can lead to some confusion.
+
+
+
+
+
+
+
 ### Functions (part 2)
 
 ### Scoping Rules Symbol Binding
