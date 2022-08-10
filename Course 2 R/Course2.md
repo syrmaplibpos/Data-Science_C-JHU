@@ -28,7 +28,7 @@
     - [Subsetting - Partial Matching](#subsetting---partial-matching)
     - [Subsetting - Removing Missing Values](#subsetting---removing-missing-values)
     - [Vectorized Operations](#vectorized-operations)
-  - [Quiz](#quiz)
+    - [Quiz](#quiz)
   - [Week 2 Programming with R](#week-2-programming-with-r)
     - [Control Structures - Introduction](#control-structures---introduction)
     - [Control Structures - If-else](#control-structures---if-else)
@@ -1228,7 +1228,7 @@ Vectorized Matrix Operations
 
 
 
-## Quiz
+### Quiz
 
 1.Question 1
 R was developed by statisticians working at
