@@ -30,6 +30,21 @@
     - [Vectorized Operations](#vectorized-operations)
   - [Quiz](#quiz)
   - [Week 2 Programming with R](#week-2-programming-with-r)
+    - [Control Structures - Introduction](#control-structures---introduction)
+    - [Control Structures - If-else](#control-structures---if-else)
+    - [Control Structures - For loops](#control-structures---for-loops)
+    - [Control Structures - While loops](#control-structures---while-loops)
+    - [Control Structures - Repeat, Next, Break](#control-structures---repeat-next-break)
+    - [Your First R Function](#your-first-r-function)
+    - [Functions (part 1)](#functions-part-1)
+    - [Functions (part 2)](#functions-part-2)
+    - [Scoping Rules Symbol Binding](#scoping-rules-symbol-binding)
+    - [Scoping Rules - R Scoping Rules](#scoping-rules---r-scoping-rules)
+    - [Scoping Rules - Optimization Example (Optional)](#scoping-rules---optimization-example-optional)
+    - [Coding Standards](#coding-standards)
+    - [Dates and times](#dates-and-times)
+    - [Quiz](#quiz-1)
+    - [Programming Assignment](#programming-assignment)
 
 
 
@@ -1534,4 +1549,189 @@ Define what lexical scoping is with respect to how the value of free variables a
 Describe the difference between lexical scoping and dynamic scoping rules
 
 Convert a character string representing a date/time into an R datetime object. [see Dates and Times]
+
+
+
+Assessments
+
+
+Quiz 2 
+
+Programming assignment 1: Air Pollution
+
+[Tutorial](https://github.com/rdpeng/practice_assignment/blob/master/practice_assignment.rmd)
+
+
+### Control Structures - Introduction
+
+
+if and else: testing a condition and acting on it
+
+for: execute a loop a fixed number of times
+
+while: execute a loop while a condition is true
+
+repeat: execute an infinite loop (must break out of it to stop)
+
+break: break the execution of a loop
+
+next: skip an interation of a loop
+
+
+
+
+
+### Control Structures - If-else
+
+```
+if(<condition>) {
+        ## do something
+} 
+## Continue with rest of code
+```
+
+```
+if(<condition>) {
+        ## do something
+} 
+else {
+        ## do something else
+}
+```
+
+```
+if(<condition1>) {
+        ## do something
+} else if(<condition2>)  {
+        ## do something different
+} else {
+        ## do something different
+}
+```
+
+```
+x <- runif(1, 0, 10)  
+if(x > 3) {
+        y <- 10
+} else {
+        y <- 0
+}
+```
+
+```
+y <- if(x > 3) {
+        10
+} else { 
+        0
+}
+```
+
+```
+if(<condition1>) {
+
+}
+
+if(<condition2>) {
+
+}
+```
+
+
+
+### Control Structures - For loops
+
+
+```
+> for(i in 1:10) {
++         print(i)
++ }
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+```
+
+```
+> x <- c("a", "b", "c", "d")
+> 
+> for(i in 1:4) {
++         ## Print out each element of 'x'
++         print(x[i])  
++ }
+[1] "a"
+[1] "b"
+[1] "c"
+[1] "d"
+```
+
+The seq_along() function is commonly used in conjunction with for loops in order to generate an integer sequence based on the length of an object (in this case, the object x).
+
+```
+> ## Generate a sequence based on length of 'x'
+> for(i in seq_along(x)) {   
++         print(x[i])
++ }
+[1] "a"
+[1] "b"
+[1] "c"
+[1] "d"
+```
+
+It is not necessary to use an index-type variable.
+
+```
+> for(letter in x) {
++         print(letter)
++ }
+[1] "a"
+[1] "b"
+[1] "c"
+[1] "d"
+```
+
+For one line loops, the curly braces are not strictly necessary.
+
+```
+> for(i in 1:4) print(x[i])
+[1] "a"
+[1] "b"
+[1] "c"
+[1] "d"
+```
+
+
+
+
+
+
+
+### Control Structures - While loops
+
+### Control Structures - Repeat, Next, Break
+
+### Your First R Function
+
+### Functions (part 1)
+
+### Functions (part 2)
+
+### Scoping Rules Symbol Binding
+
+### Scoping Rules - R Scoping Rules
+
+### Scoping Rules - Optimization Example (Optional)
+
+### Coding Standards
+
+### Dates and times
+
+### Quiz
+
+### Programming Assignment
 
