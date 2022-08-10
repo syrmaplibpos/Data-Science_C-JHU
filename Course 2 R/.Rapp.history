@@ -1,0 +1,285 @@
+y[good]
+head(airquality)
+str(airquality)
+head(airquality)
+str(head)
+help(head)
+airquality[1:6,]
+airquality[1:6, ]
+good <- complete.cases(airquality)
+airquality[good, ][1:6, ]
+> x <- 1:4#
+> y <- 6:9
+x <- 1:4; y <- 6:9
+x+y
+x>2
+x>=2
+x==8
+x*y
+x/y
+x <- matrix(1:4, 2, 2);y <- matrix(rep(10, 4), 2, 2)
+x
+y
+class(4L)
+x <- c(4, "a", TRUE)
+class(x)
+vector()
+x<-vector(1,2)
+help(vector)
+x<-c(2,2,3,4,5)
+class(x)
+x.as.vector(x)
+as.vector(x
+1
+as.vector(x)
+class(x)
+dim(x)
+length(x)
+help(vector)
+x <- list(2, "a", "b", TRUE)
+x[[1]]
+class(x[[1]])
+x <- 1:4; y <- 2.
+x+y
+x <- c(17, 14, 4, 5, 13, 12, 10)
+x[x >= 10] <- 4
+x
+x <- c(17, 14, 4, 5, 13, 12, 10)
+x[x > 10] == 4
+x
+getwd()
+dir
+dir()
+read.csv(hw1_data.csv)
+read.csv(hw1_data)
+read.table(hw1_data.csv)
+read.table(hw1_data)
+dir()
+read.csv("hw1_data.csv" )
+tAll<-read.csv("hw1_data.csv" )
+name(tAll)
+names(tAll)
+class(tAll)
+tAll[2]
+tAll[1,2]
+tAll[,2]
+tAll[1:2,]
+nrow(tAll)
+tAll[152:153,]
+tAll[47,names=Ozone]
+tAll[47,names="Ozone"]
+help(data.frame)
+tAll[47,]
+tAll[47,"Ozone"]
+bad<-is.na(tAll)
+bad
+bad<-is.na(tAll)
+bad<-is.na(tAll[,"Ozone"])
+dim(bad)
+length(bad)
+tAll[bad]
+bad<-is.na(tAll[,"Ozone"])
+tAll[!bad]
+tAll[bad,"Ozone"]
+length(tAll[bad,"Ozone"])
+tgz<-tAll[!bad,"Ozone"]
+tgz
+mean(tgz)
+subset18<-tAll[,Ozone>31 & Temp>90]
+subset18<-tAll[,"Ozone">31 & "Temp">90]
+subset18
+subset18<-tAll[,"Ozone">31 & "Temp">90]
+subset18<-tAll[,"Ozone">31 & "Temp">90 & "Solar.R"!=NA]
+good <- complete.cases(subset18)
+good
+subset18[,good]
+subset18[good,]
+mean(subset18[good,"Solar.R"])
+mean(subset18[,"Solar.R"])
+tAll[,"Month"=6]
+tAll[,Month=6]
+tAll[,Month==6]
+tAll[,"Month"==6]
+subset19<-tAll[,"Month"==6]
+dim(subset19)
+subset19<-tAll[,"Temp" & "Month"]
+subset19<-tAll[,"Temp", "Month"]
+subset18<-tAll[,"Ozone">31 & "Temp">90]
+subset18
+subset18<-tAll[,"Ozone">31 & "Temp">90]
+subset18
+tAll(Ozone>31,Temp>90)
+help(data.frame)
+subset18<-subset(tAll,Ozone>31,Temp>90)
+subset18
+subset18<-subset(tAll,Ozone,Temp)
+getwd()
+dir()
+tall<-read.csv(hw1_data.csv)
+tall<-read.csv("hw1_data.csv")
+tall
+tall$Ozone
+tall[Ozone]
+tall[[Ozone]]
+head(tall)
+tall
+names(tall)
+tall[["Ozone"]]
+x <- list(foo = 1:4, bar = 0.6, baz = "hello")
+x
+x[c(1,3)]
+tall[c(1,2,4)]
+tall[c(Ozone,Solar.R,Temp)]
+tall[c("Ozone","Solar.R","Temp")]
+tall[c("Ozone">31,"Solar.R","Temp">90)]
+tall[c("Ozone","Solar.R","Temp")]
+subset18<-tall[Ozone>31,Temp>90]
+subset18<-subset[tall,Ozone>31,Temp>90]
+subset18<-subset[tall,Ozone>31 &Temp>90]
+subset18<-subset[tall,Ozone>31 & Temp>90]
+subset18<-subset(tall,Ozone>31 & Temp>90)
+subset18
+subset18[[Solar.R]]
+subset18$Solar.R
+mean(subset18$Solar.R)
+subset19<-subset(tall,Month==6)
+subset19
+mean(subset19$Temp)
+subset20<-subset(tall,Month==5)
+subset20
+max(subset20$Ozone)
+subset20$Ozone
+ozonegood<-complete.case(subset20$Ozone)
+ozonegood<-complete.cases(subset20$Ozone)
+ozone20<-subset20$Ozone
+good<-complete.cases(ozone20)
+ozone20[good]
+max(ozone20[good])
+dir()
+tall<-read.csv("hw1_data.csv")
+names(tall)
+tall[1:2,]
+nrow(tal)
+nrow(tall)
+names(tall)
+tall[152:153,]
+tall[47,Ozone]
+tall[47,Ozone"]
+1
+1
+1
+tall[47,Ozone"]
+tall[47,"Ozone"]
+tall[Ozone]
+tall["Ozone"]
+bad<-is.na(tall["Ozone"])
+length(tall["Ozone"][bad])
+mean(tall["Ozone"][!bad])
+subset18<-subset(tall,Ozone>31 & Temp>90)
+mean(subset18[[Solar.R]])
+mean(subset18[["Solar.R"]])
+mean(subset18["Solar.R"])
+mean(subset18[Solar.R])
+subset18[Solar.R]
+subset18<-subset(tall,Ozone>31 & Temp>90)
+subset18
+subset18[Solar.R]
+subset18["Solar.R"]
+subset18[[Solar.R]]
+subset18[["Solar.R"]]
+subset18["Solar.R"]
+subset18<-subset(tall,Ozone>31 & Temp>90)
+mean(subset18["Solar.R"])
+class(subset18["Solar.R"])
+subset18<-subset(tall,Ozone>31 & Temp>90)
+mean(subset18[["Solar.R"]])
+class(subset18[["Solar.R"]])
+subset18[["Solar.R"]]
+class(subset18[["Solar.R"]])
+subset18["Solar.R"]
+class(subset18["Solar.R"])
+subset18[["Solar.R"]]
+class(subset18[["Solar.R"]])
+subset18["Solar.R"]
+class(subset18[["Solar.R"]])
+subset18[["Solar.R"]]
+class(subset18[["Solar.R"]])
+subset18["Solar.R"]
+class(subset18["Solar.R"])
+subset18$Solar.R
+class(subset18$Solar.R)
+subset19<-subset(tall,Month==6)
+max(subset19$Ozone)
+subset19<-subset(tall,Month==6)
+subset19
+subset19<-subset(tall,Month==6)
+good<-complete.cases(subset19$Ozone)
+subzone<-subset19$Ozone
+subOzone<-subset19$Ozone
+subset19<-subset(tall,Month==6)
+subOzone<-subset19$Ozone
+good<-complete.cases(subOzone)
+class(subOzone[good])
+max(subOzone[good])
+subset19<-subset(tall,Month==6)
+mean(subset19$Temp)
+subset19<-subset(tall,Month==5)
+subset19
+subset19<-subset(tall,Month==5)
+subset20<-subset(tall,Month==5)
+subOzone<-subset20$Ozone
+good<-complete.cases(subOzone)
+class(subOzone[good])
+max(subOzone[good])
+x <- matrix(1:6, 2, 3)#
+#
+for(i in seq_len(nrow(x))) {#
+        for(j in seq_len(ncol(x))) {#
+                print(x[i, j])#
+        }   #
+}
+> z <- 5#
+> set.seed(1)#
+> #
+> while(z >= 3 && z <= 10) {#
++         coin <- rbinom(1, 1, 0.5)#
++         #
++         if(coin == 1) {  ## random walk#
++                 z <- z + 1#
++         } else {#
++                 z <- z - 1#
++         } #
++ }#
+> print(z)
+z <- 5
+set.seed(1)
+while(z >= 3 && z <= 10) {#
++         coin <- rbinom(1, 1, 0.5)#
++         #
++         if(coin == 1) {  ## random walk#
++                 z <- z + 1#
++         } else {#
++                 z <- z - 1#
++         } #
++ }
+while(z >= 3 && z <= 10) {#
++         coin <- rbinom(1, 1, 0.5)#
++         #
++         if(coin == 1) {  ## random walk#
++                 z <- z + 1#
++         } else {#
++                 z <- z - 1#
++         } #
++ }
+z <- 5
+set.seed(1)
+while(z >= 3 && z <= 10) {
+coin <- rbinom(1, 1, 0.5)
+if(coin == 1) {  ## random walk
+z <- z + 1
+} else {
+z <- z - 1
+}
+}
+print(z)
+help(rbinom)

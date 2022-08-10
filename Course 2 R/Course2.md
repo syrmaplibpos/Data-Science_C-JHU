@@ -35,6 +35,7 @@
     - [Control Structures - For loops](#control-structures---for-loops)
     - [Control Structures - While loops](#control-structures---while-loops)
     - [Control Structures - Repeat, Next, Break](#control-structures---repeat-next-break)
+    - [Summary](#summary)
     - [Your First R Function](#your-first-r-function)
     - [Functions (part 1)](#functions-part-1)
     - [Functions (part 2)](#functions-part-2)
@@ -1643,18 +1644,8 @@ if(<condition2>) {
 
 ```
 > for(i in 1:10) {
-+         print(i)
-+ }
-[1] 1
-[1] 2
-[1] 3
-[1] 4
-[1] 5
-[1] 6
-[1] 7
-[1] 8
-[1] 9
-[1] 10
+     print(i)
+}
 ```
 
 ```
@@ -1670,6 +1661,8 @@ if(<condition2>) {
 [1] "d"
 ```
 
+* seq_along()
+
 The seq_along() function is commonly used in conjunction with for loops in order to generate an integer sequence based on the length of an object (in this case, the object x).
 
 ```
@@ -1683,7 +1676,7 @@ The seq_along() function is commonly used in conjunction with for loops in order
 [1] "d"
 ```
 
-It is not necessary to use an index-type variable.
+* It is not necessary to use an index-type variable.
 
 ```
 > for(letter in x) {
@@ -1705,17 +1698,147 @@ For one line loops, the curly braces are not strictly necessary.
 [1] "d"
 ```
 
+* Nested for loops
 
+```
+x <- matrix(1:6, 2, 3)
 
+for(i in seq_len(nrow(x))) {
+        for(j in seq_len(ncol(x))) {
+                print(x[i, j])
+        }   
+}
+```
 
+Sometimes it can go around loops by using functions.
 
 
 
 ### Control Structures - While loops
 
+
+While loops begin by testing a condition. If it is true, then they execute the loop body. Once the loop body is executed, the condition is tested again, and so forth, until the condition is false, after which the loop exits.
+
+```
+> count <- 0
+> while(count < 10) {
++         print(count)
++         count <- count + 1
++ }
+```
+
+Sometimes there will be more than one condition in the test.
+
+Conditions are always evaluated from left to right.
+
+```
+> z <- 5
+> set.seed(1)
+> 
+> while(z >= 3 && z <= 10) {
++         coin <- rbinom(1, 1, 0.5)
++         
++         if(coin == 1) {  ## random walk
++                 z <- z + 1
++         } else {
++                 z <- z - 1
++         } 
++ }
+> print(z)
+[1] 2
+```
+
+
 ### Control Structures - Repeat, Next, Break
 
+* repeat Loops
+
+repeat initiates an infinite loop right from the start. These are not commonly used in statistical or data analysis applications but they do have their uses. The only way to exit a repeat loop is to call break.
+
+```
+x0 <- 1
+tol <- 1e-8
+
+repeat {
+        x1 <- computeEstimate()
+        
+        if(abs(x1 - x0) < tol) {  ## Close enough?
+                break
+        } else {
+                x0 <- x1
+        } 
+}
+```
+
+* next, return
+
+next is used to skip an iteration of a loop.
+
+```
+for(i in 1:100) {
+        if(i <= 20) {
+                ## Skip the first 20 iterations
+                next                 
+        }
+        ## Do something here
+}
+```
+
+break is used to exit a loop immediately, regardless of what iteration the loop may be on.
+
+```
+for(i in 1:100) {
+      print(i)
+
+      if(i > 20) {
+              ## Stop loop after 20 iterations
+              break  
+      }		
+}
+```
+
+
+### Summary
+
+* Control structures like if, while, and for allow you to control the flow of an R program
+
+* Infinite loops should generally be avoided, even if (you believe) they are theoretically correct.
+
+* Control structures mentioned here are primarily useful for writing programs; for command-line interactive work, the “apply” functions are more useful.
+
+
+
+
 ### Your First R Function
+
+
+```
+above<-function(x,n){
+  use <- x > n
+  x[use]
+}
+```
+
+```
+> x<-1:20
+> above(x,15)
+[1] 16 17 18 19 20
+```
+
+```
+> class(x[TRUE])
+[1] "integer"
+> class(x[FALSE])
+[1] "integer"
+> x[TRUE]
+ [1]  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20
+> x[FALSE]
+integer(0)
+```
+
+* default above<-function(x,n=10)
+
+
 
 ### Functions (part 1)
 
