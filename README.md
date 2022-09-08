@@ -1,4 +1,4 @@
-# Data Science Self Study Journey
+# Data-Science_C-JHU
 Based on Data Science Specialization by Johns Hopkins University on Coursera
 
 ## [Course 1: The Data Scientist’s Toolbox](https://www.coursera.org/learn/data-scientists-tools/home/welcome)
