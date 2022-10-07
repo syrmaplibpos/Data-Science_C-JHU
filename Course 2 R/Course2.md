@@ -46,6 +46,15 @@
     - [Dates and times](#dates-and-times)
     - [Quiz](#quiz-1)
     - [Programming Assignment](#programming-assignment)
+  - [Week 2 Loop Functions and Debugging](#week-2-loop-functions-and-debugging)
+    - [apply family](#apply-family)
+      - [lapply](#lapply)
+      - [apply](#apply)
+      - [mapply](#mapply)
+      - [tapply](#tapply)
+      - [split](#split)
+    - [Debugging Tools](#debugging-tools)
+      - [Tools](#tools)
 
 
 
@@ -2684,4 +2693,41 @@ It is the environment in which a function was defined &check;
 
 
 ### Programming Assignment
+
+
+
+## Week 2 Loop Functions and Debugging
+
+### apply family
+
+#### lapply
+
+#### apply
+
+#### mapply
+
+#### tapply 
+
+#### split
+
+### Debugging Tools
+
+#### Tools 
+
+* trackback: print out the function call stack after an error occurs
+
+* debug: flag a function for debug mode which allows seeing through execution
+
+* browser: suspend the execution of a function whenever it is called and puts the function in debug mode
+
+* trace: allows you to insert debugging code into a function a specific places
+
+* recover: allows you to modify the error behavior so that you can browser the function call stack
+
+
+inserting print/cat in the function
+
+
+
+
 
