@@ -1270,25 +1270,25 @@ The freedom to restrict access to the source code for the software. &check;
 3.Question 3
 In R the following are all atomic data types EXCEPT: (Select all that apply)
 
-table
+table &check;
 
-logical &check;
+logical
 
-list
+list &check;
 
-integer &check;
+integer
 
-data frame
+data frame &check;
 
-matrix
+matrix &check;
 
-array
+array &check;
 
-complex &check;
+complex
 
-numeric &check;
+numeric
 
-character &check;
+character
 
 4.Question 4
 If I execute the expression x <- 4L in R, what is the class of the object `x' as determined by the `class()' function?
